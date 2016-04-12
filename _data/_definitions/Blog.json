@@ -7,7 +7,7 @@
 "url_friendly_name":
 	{"type":"url_slug"},
 "author":
-	{"required":true,"type":"model","model_name":"Author","multiple":false,"display_field":"name"},
+	{"required":true,"type":"model","model_name":"Author","multiple":false,"display_field":"name", "hint":"Test hint"},
 "category":
 	{"type":"model","model_name":"BlogCategory","multiple":true,"default_text":"Select Blog Post Categories","display_field":"name"},
 "date":
