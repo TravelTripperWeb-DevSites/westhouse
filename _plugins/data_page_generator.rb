@@ -4,14 +4,15 @@
 
 module Jekyll
   class DataPage < Page
-    attr_reader :data_source, :source_path
+    attr_reader :data_source, :source_path, :model_id
 
     def initialize(site, base, dir, data, name, template, source_dir)
       @site = site
       @base = base
       @dir = dir
+      @model_id = name
       @data_source = source_dir + '/' + (data['__INSTANCE__'] || "#{name}.json")
-      file_name = sanitize_filename(url_friendly_name || name)
+      file_name = sanitize_filename(self.url_friendly_name(data) || name)
       @name = file_name  + ".html"
       @source_path = '_layouts/' + template + '.html'
 
@@ -31,8 +32,9 @@ module Jekyll
       self.data.nil? ? nil : self.data['permalink']
     end
   
-    def url_friendly_name
-      self.data.nil? || self.data['url_friendly_name'].strip == '' ? nil : self.data['url_friendly_name']
+    def url_friendly_name(data = nil)
+      data = data || self.data
+      data.nil? || data['url_friendly_name'].nil? || data['url_friendly_name'].strip == '' ? nil : data['url_friendly_name']
     end
   
     private
@@ -69,4 +71,3 @@ module Jekyll
     end
   end
 end
-
