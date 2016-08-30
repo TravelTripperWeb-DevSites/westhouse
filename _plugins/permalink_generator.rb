@@ -30,7 +30,9 @@ module Jekyll
         pathname = Pathname.new(page_url)
         dir = pathname.dirname.to_s
         base = pathname.basename('.*').to_s
-
+        if page.respond_to?(:model_id) && page.model_id
+          @permalinks_table["#{dir}/#{page.model_id.downcase}"] = page
+        end
         @permalinks_table["#{dir}/#{base}"] = page
       end
     end

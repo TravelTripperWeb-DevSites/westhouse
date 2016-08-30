@@ -32,7 +32,7 @@ module Jekyll
     end
 
     def respond_to_missing?(name, include_private = false)
-      name.to_s =~ /url_(#{site.languages.join('|')})/ || super
+      (name.to_s =~ /url_(#{site.languages.join('|')})/) || super
     end
   end
 
