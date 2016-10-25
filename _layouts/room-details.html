@@ -79,26 +79,23 @@
         					</form>
         					
         					
-                            <form class="moby" autocomplete="off" method="get" enctype="multipart/form-data" name="omni_reservation_form_" action="https://westhousehotelnewyork.reztripmobile.com/rt/m/results?" target="_self">
-                                <input type="hidden" name="room_id" value="[[details.params.room_id]]" >
-                                <input type="hidden" value="354" name="propertyId">
-                                <input type="hidden" value="en-us" name="locale">
-                                <input type="hidden" value="westhousehotelnewyork" name="sub">
+                            <form class="moby" autocomplete="off" method="get" enctype="multipart/form-data" name="omni_reservation_form_" action="https://westhousehotelnewyork.reztrip.com/search?" target="_self">
+                                
                                 
         						<span class="calsec" style="margin-left: 10px;">
-        							<input type="text" id="arrival_datess" ng-model="search.params.arrival_date" name="arrival" placeholder="Arrival" class="calendarsection"/>
+        							<input type="text" id="arrival_datess" ng-model="search.params.arrival_date" name="arrival_date" placeholder="Arrival" class="calendarsection"/>
         							<input type="hidden"  id="arv">
         							<i class="fa fa-calendar"></i>
         						</span>
         
         						<span class="calsec">
-        							<input type="text" id="departure_datess" ng-model="search.params.departure_date" name="departure" placeholder="Departure" class="calendarsection"/>
+        							<input type="text" id="departure_datess" ng-model="search.params.departure_date" name="departure_date" placeholder="Departure" class="calendarsection"/>
         							<input type="hidden" id="dep">
         							<i class="fa fa-calendar"></i>
         						</span>
         
         						<span class="dropsec" style="margin-right: 6px">
-        							<select name="numAdults" ng-model="search.params.adults" id="adults" class="halfsies">
+        							<select name="adults[]" ng-model="search.params.adults" id="adults" class="halfsies">
         								<option value="1" ng-selected="true">1 Adult</option>
         								<option value="2">2 Adults</option>
         								<option value="3">3 Adults</option>
@@ -107,7 +104,7 @@
         						</span>
         
         						<span class="dropsec">
-        							<select name="numChildren" ng-model="search.params.children" id="children" class="halfsies">
+        							<select name="children[]" ng-model="search.params.children" id="children" class="halfsies">
         								<option value="0" ng-selected="true">0 Kids</option>
         								<option value="1">1 Kid</option>
         								<option value="2">2 Kids</option>
@@ -274,6 +271,31 @@
 				</div>
 				
 				<div class="roomvt">
+
+                    <div class="vtr-btn-box">
+                        <div ng-if="details.params.room_id == 'WHQL'">
+						   <a target="_blank" href="http://viewer.vrglobal.com/oTR6FfqW" class="button1">VIEW VIRTUAL TOUR</a>
+				        </div>
+				        <div ng-if="details.params.room_id == 'WHK'">
+						   <a target="_blank" href="http://viewer.vrglobal.com/d7jiAWyW" class="button1">VIEW VIRTUAL TOUR</a>
+				        </div>
+				        <div ng-if="details.params.room_id == 'WHKL'">
+						   <a target="_blank" href="http://viewer.vrglobal.com/bI4wwp6J" class="button1">VIEW VIRTUAL TOUR</a>
+				        </div>
+				        <div ng-if="details.params.room_id == 'WHQQ'">
+						   <a target="_blank" href="http://viewer.vrglobal.com/6jvNwfVD" class="button1">VIEWVIRTUAL TOUR</a>
+				        </div>
+				        <div ng-if="details.params.room_id == 'WHKTS'">
+						   <a target="_blank" href="http://viewer.vrglobal.com/YCWYXsel" class="button1">VIEW VIRTUAL TOUR</a>
+				        </div>
+				        <div ng-if="details.params.room_id == 'WHKS'">
+						   <a target="_blank" href="http://viewer.vrglobal.com/SMDi7vqd" class="button1">VIEW VIRTUAL TOUR</a>
+				        </div>
+				        <div ng-if="details.params.room_id == 'WHKST'">
+						   <a target="_blank" href="http://viewer.vrglobal.com/X3EZAOZ9" class="button1">VIEW VIRTUAL TOUR</a>
+				        </div>
+                        
+                    </div> 
 				    <!--
 				    <h3>VIRTUAL TOUR</h3>
 				    

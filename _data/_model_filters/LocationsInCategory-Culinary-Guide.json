@@ -2,5 +2,6 @@
     "definition_names": ["Culinary-Guide"],
     "find": {
         "category_id": "56b0c32277e2f50003f8af60"
-    }
+    },
+    "sort": { "datemeta": -1 }
 }

@@ -1,0 +1,49 @@
+{% assign PPC-Landing-Page = page %}
+{% assign model = page %}
+{% assign template_class = 'ppc-landing-single' %}
+{% assign seo_title = PPC-Landing-Page.seo_title %}
+{% assign seo_description = PPC-Landing-Page.seo_description %}
+
+{% include header.html %}
+
+		<div id="featuredcontent" style="background-image: url({{model.image.url}});">
+		
+			<h2 class="contenttitle_ppc">
+
+			<div class="content_border">Luxury Hotel Experience in NYC <br> <span id="save25">SAVE 25%</span></div>
+			
+			<div class="reserveppc"><a class="button_ppc" href="https://westhousehotelnewyork.reztrip.com/ext/promoRate?property=354&mode=b&pm=true&sr=159510&vr=3" target="_blank">Reserve Now</a></div>
+
+			</h2>
+			
+			
+			
+		</div>
+		
+		<div id="contentwidget">
+		   <div class="logo"><a href="/"><img src="/assets/images/712/original/logo3.png" alt="logo3" /></a></div>
+
+           <!-- include booking form -->
+
+           <!-- {% include booking_form_interior.html %}-->
+
+            <!-- // include booking form -->
+		</div>
+		
+		<div class="subnav">
+		</div>
+		
+		<div id="maincontent">
+		
+			<div class="container">
+		
+				<h1 style="text-align:center;">{{ PPC-Landing-Page.title }}</h1>
+
+    			<div class="specialppc">{{ PPC-Landing-Page.contents }} </div>
+			
+			</div>
+		
+		</div>
+		
+
+{% include footer.html %}

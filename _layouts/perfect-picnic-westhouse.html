@@ -1,0 +1,85 @@
+{% assign template_class = 'content' %}
+
+{% include header.html %}
+
+<div class="featured-wrapper">
+
+	{% region content_image %}
+
+
+</div>
+
+		
+			
+			
+			<!--<div class="reserve"><a class="button1" href="#">Reserve</a></div>-->
+
+
+		<div id="contentwidget">
+		   <div class="logo"><a href="/"><img src="/assets/images/712/original/logo3.png" alt="logo3" /></a></div>
+
+           <!-- include booking form -->
+
+            {% include booking_form_interior.html %}
+
+            <!-- // include booking form -->
+		</div>
+		
+
+		
+		<div id="maincontent" class="picnic">
+
+			<h1 class="contenttitle">{% region title_picnic %}</h1>
+
+			<div class="container conpic">
+		 
+		    <div class="culinary-outer">
+
+		    	{% assign PicnicSorted = site.data._models.Picnic | sort: 'orderby' %}
+				{% for LocationsInCategory-Picnic in PicnicSorted %}
+
+					<div class="hvr-sweep-to-left cg-post-image{% comment %} // Saved %comment% for future use. // Delete it if you want {% cycle 'cg-post-image', 'cg-post-noimage' %} {% endcomment %}">
+
+						<div class="picnic-post">
+							<div class="picnic-image">
+								<img src="{{LocationsInCategory-Picnic.featured_image.url }}" align="left">
+							</div>
+							<div class="picnic-details ">
+
+								<h2 class="picnic">{{ LocationsInCategory-Picnic.title }}</h2>
+
+								<h3 class="picnic">{{ LocationsInCategory-Picnic.price }}</h3>
+
+								{% if LocationsInCategory-Picnic.price2 != '' %}
+									<h3 class="picnic">{{ LocationsInCategory-Picnic.price2 }}</h3>
+								{% endif %}
+
+								{% if LocationsInCategory-Picnic.sub_heading != '' %}
+									<h3 class="picnic sub-heading">{{ LocationsInCategory-Picnic.sub_heading }}</h3>
+								{% endif %}
+
+								<div class="content">
+									{{ LocationsInCategory-Picnic.contents }}
+								</div>	
+
+							</div>
+						</div>
+
+					</div>
+
+				{% endfor %}
+				
+		    </div>
+		    
+
+			
+			<div class="clear"></div>
+			
+
+		
+		</div>
+
+		    
+		</div>
+		
+{% include footer.html %}

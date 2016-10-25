@@ -1,0 +1,23 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE channel [
+  <!ENTITY lsquo "&#145;">
+  <!ENTITY rsquo "&#146;">
+  <!ENTITY ldquo "&#147;">
+  <!ENTITY rdquo "&#148;">]>
+<rss version="2.0">
+  <channel>
+    <title>The Westhouse Blog</title>
+    <link>http://www.westhousehotelnewyork.com/westhouse-blog/</link>
+    <description>A fantastic hotel</description>
+    {% assign LatestBlogsList = site.data._models.Blog | sort: 'datemeta' | reverse %}
+    {% for blog in LatestBlogsList %}
+      <item>
+        <title>{{blog.title | replace: "& ", '&amp;' }}</title>
+        <link>http://www.westhousehotelnewyork.com{{ blog.id | permalink: model_dir: 'blog' }}</link>
+        <description>{{ blog.seo_description | replace: "& ", '&amp;' }}</description>        
+      </item>
+    {% endfor %}
+  </channel>
+</rss>

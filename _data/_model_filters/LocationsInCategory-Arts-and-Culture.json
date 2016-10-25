@@ -2,5 +2,6 @@
     "definition_names": ["Neighborhood-Locations"],
     "find": {
         "category_id": "55a7aeff226e50b963000018"
-    }
+    },
+    "sort": { "datemeta": -1 }
 }

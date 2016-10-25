@@ -1,0 +1,3207 @@
+
+/* ================================================ 1480 - 0000 ======================================= */
+
+@media only screen
+and (max-width: 1480px) {
+
+	/* datepicker */
+
+	.ressys {
+		left: 10%;
+		width: 80%;
+	}
+
+
+	/* PAGE - HOTEL */
+
+	.hotelarticle {
+		width: 55%;
+	}
+
+	.hotelaside {
+		width: 40%;
+	}
+
+}
+
+
+
+/* ================================================ 1365 - 0000 ======================================= */
+
+@media only screen
+and (max-width: 1365px) {
+
+	/* content widget */
+
+	#contentwidget {
+		padding: 0 50px 20px;
+	}
+
+	#contentwidget .logo {
+		width: auto;
+	}
+
+	#contentwidget .logo a {
+		display: block;
+	}
+
+	#contentwidget .logo img {
+		margin-left: 0;
+	}
+
+	#contentwidget .reservationform {
+		margin-right: 0;
+		width: auto;
+	}
+
+
+	/* PAGE - AMENITIES PARTNERS */
+
+	.the-amenities ul {
+		overflow: auto;
+	}
+
+	.the-amenities .container li {
+		float: left;
+		width: 30.33%;
+		margin: 0 1% 20px;
+	}
+
+
+	/* MERCHANDISING */
+
+    .merch-sec .container {
+    	width: 80%;
+    }
+
+
+}
+
+
+
+/* ================================================ 1280 - 0000 ======================================= */
+
+@media only screen
+and (max-width: 1280px) {
+
+
+
+}
+
+
+
+/* ================================================ 1279 - 0000 ======================================= */
+
+@media only screen
+and (max-width: 1279px) {
+
+	/* hamburger menu */
+
+	.clear4 { display: none;}
+	.clear3 { display: block;}
+
+	.clear44 { display: none;}
+	.clear33 { display: block;}
+
+	.boxcontainer {
+		width: calc(33.33% - 20px);
+	}
+
+
+	/* featured reservation form */
+
+	#featured .reservationform {
+		width: 250px;
+	}
+
+	.datepicker,
+	.datepickerr {
+		left: auto;
+		right: 0;
+	}
+
+	.departdatepicker,
+	.departdatepickerr {
+		right: 0;
+	}
+
+	.arrv, .dept { position: relative;}
+
+    #featured .reservationform input.calendarsection {
+    	width: 170px;
+    }
+
+	.calspacer input[type="submit"] {
+		margin: 5px 5px 0;
+		padding: 10px 0;
+		width: 240px;
+		cursor: pointer;
+	}
+
+
+	/* content widget */
+
+	#contentwidget .calspacer input[type="submit"] {
+		padding: 10px 20px;
+		margin: 5px 0 0 5px;
+		width: auto;
+	}
+
+
+	/* homepage : award */
+
+	#award .container {
+		max-width: 800px;
+	}
+
+	#award .awardpic {
+		float: left;
+		width: 150px;
+	}
+
+	#award p {
+		float: none;
+		padding: 31px 20px;
+	}
+
+	#award .votenowbutton {
+		padding: 15px 0 0;
+	}
+
+
+	/* homepage : hotel */
+
+	#hotel .hotelcontent {
+		width: auto;
+	}
+
+	#hotel .hotelcontent .col3.htitle {
+		padding: 0 0 0 3%;
+		text-align: left;
+		width: 24%;
+	}
+
+	#hotel .hotelcontent .col3 {
+		width: 36.5%;
+	}
+
+
+	/* homepage : rooms */
+
+	#rooms .roomscontent {
+		width: auto;
+	}
+
+	#rooms .roomscontent .col3.htitle {
+		padding: 0 0 0 3%;
+		text-align: left;
+		width: 24%;
+	}
+
+	#rooms .roomscontent .col3.htitle h3 {
+		padding: 0;
+	}
+
+	#rooms .roomscontent .col3 {
+		width: 36.5%;
+	}
+
+
+	/* homepage : area */
+
+	#area .areacontent {
+		width: auto;
+	}
+
+	#area .areacontent .col3.htitle {
+		padding: 0;
+		text-align: right;
+		width: 23%;
+	}
+
+	#area .areacontent .col3.htitle h3 {
+		padding: 0;
+	}
+
+	#area .areacontent .col3 {
+		width: 36.5%;
+	}
+
+	#area .continuebutton {
+		right: 0;
+	}
+
+
+	/* newsletter */
+
+	#signup .signuptext { width: 30%;}
+	#signup .signupform { width: 70%;}
+
+
+	/* footer */
+
+	#footer::after {
+	    left: 65%;
+	}
+
+	#footer .col2 {
+		width: 45%;
+	}
+
+	#footer div.col2:first-child {
+        width: 65%;
+    }
+
+	#footer div.col2:nth-child(2) {
+        width: 30%;
+    }
+
+    #footer .fromtheblog .moreblog {
+    	width: 100%;
+    	left: auto;
+    }
+
+	#footer .fromtheblog h3 {
+		margin: 0 auto 20px;
+		text-align: center;
+		width: auto;
+		max-width: 240px;
+	}
+
+	#footer .fromtheblog .blogitem,
+	#footer .fromtheblog .blogitem:nth-child(2) {
+		float: none;
+		margin: 0 auto 15px;
+		width: 80%;
+	}
+
+	#footer .fromtheblog .blogitem img {
+		margin-bottom: 20px;
+		width: 100%;
+	}
+
+
+	/* PAGE - ACCOMMODATIONS */
+
+	#roomsintro .roomcontent .col3.htitle {
+		margin: 0 0 40px;
+		text-align: center;
+		width: 100%;
+	}
+
+	#roomsintro .roomcontent .htitle h2 {
+		padding: 0;
+	}
+
+	#roomsintro .roomcontent .col3 {
+		width: 50%;
+	}
+
+
+	/* PAGE - AMENITIES PARTNERS */
+
+	.the-amenities .container li {
+		height: 350px;
+		width: 48%;
+	}
+
+
+	/* PAGE - PARTNERS */
+
+	#partnerslist ul li {
+		height: 400px;
+	}
+
+
+    /* PAGE - NEIGHBORHOOD LIST */
+
+    .infocontainer {
+        top: auto;
+        bottom: 30px;
+        right: 30px;
+    }
+
+
+	/* PAGE - MERCHANDISING */
+
+    .merch-sec .container {
+    	width: auto;
+    	padding: 0 50px;
+    }
+
+    .merch-copy {
+        width: 360px;
+    }
+
+    .vote_tolo_content p{
+	  padding-bottom: 0px;
+	  font-size: 100% !important;
+	  margin: auto;
+    }
+
+    .vote .container{
+    	   max-width: 100% !important;
+    }
+
+
+}
+
+
+/* ================================================ 1200 - 0000 ======================================= */
+
+@media only screen
+and (max-width: 1200px) {
+
+	.resident {
+		width: 50%;
+	}
+	.awc-three {
+		padding: 0 0 0 40px;
+	}
+	.awc-four {
+		padding: 0 0 0 40px;
+	}
+
+}
+
+
+/* ================================================ 1160 - 0000 ======================================= */
+
+@media only screen
+and (max-width: 1160px) {
+
+	/* content widget */
+
+	#contentwidget .reservationform {
+		padding: 0;
+	}
+
+	#contentwidget .calspacer {
+		display: block;
+		float: none;
+	}
+
+	#contentwidget .reservationform span.calsec {
+		margin: 5px 0 5px 5px;
+	}
+
+	#contentwidget .calspacer input[type="submit"] {
+		padding: 10px 20px;
+		margin: 5px 0 0 5px;
+		width: auto;
+	}
+
+
+	/* PAGE - AMENITIES PARTNERS */
+
+	.the-partners ul {
+		margin: 0 auto;
+		width: 460px;
+	}
+
+    .the-partners ul li {
+        margin: 0 10px 15px;
+    }
+
+
+    /* PAGE - Press */
+
+    .pressform {
+        max-width: 100%;
+    }
+
+}
+
+
+
+/* ================================================ 1149 - 0000 ======================================= */
+
+@media only screen
+and (max-width: 1149px) {
+
+    /* footer */
+
+    #footer .footerlogo {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+
+}
+
+
+
+/* ================================================ 1024 - 0000 ======================================= */
+
+@media only screen
+and (max-width: 1024px) {
+
+    #header .mini-nav {
+        right: 21%;
+    }
+
+    /* PAGE */
+
+    #maincontent {
+        padding-top: 30px;
+        clear: both;
+    }
+
+	/* hamburger menu */
+
+    .maintop {
+        padding: 10px 0 25px 10px;
+    }
+
+    .maintop .htitle {
+      width: auto;
+      margin: 0 0 20px;
+    }
+
+    .maintop .col3 {
+      float: none;
+      text-align: center;
+      width: auto;
+    }
+
+    .maintop a.button1 {
+      float: none;
+      position: static;
+    }
+
+
+	/* datepicker */
+
+	.ressys {
+		left: 5%;
+		width: 90%;
+	}
+
+	/* flexslider */
+
+	.flex-direction-nav a {
+		background-color: #fff;
+		border-radius: 5px;
+		margin: -41px 0 0;
+		padding: 20px;
+	}
+
+	.flex-direction-nav .flex-prev,
+	.flex-direction-nav .flex-next {
+		opacity: 0.7;
+	}
+
+	.flex-direction-nav .flex-prev,
+	.flexslider:hover .flex-direction-nav .flex-prev {
+		left: 10px;
+	}
+
+	.flex-direction-nav .flex-next,
+	.flexslider:hover .flex-direction-nav .flex-next {
+		right: 10px;
+	}
+
+
+	/* homepage : flexslider tripslider */
+
+	.flexslider.tripslider .flex-direction-nav .flex-prev,
+	.flexslider.tripslider:hover .flex-direction-nav .flex-prev {
+		left: -30px;
+	}
+
+	.flexslider.tripslider .flex-direction-nav .flex-next,
+	.flexslider.tripslider:hover .flex-direction-nav .flex-next {
+		right: -30px;
+	}
+
+	#tripadvisory .col3.triplogo,
+	#tripadvisory .col3.testimonials,
+	#tripadvisory .col3.author {
+		float: none;
+		padding: 0 50px;
+		text-align: left;
+		width: auto;
+	}
+
+	#tripadvisory .col3.triplogo {
+		margin: 0 0 20px;
+	}
+
+	/* SINGLE - ACCOMMODATIONS */
+
+	#roommoredetail .roomreservations .reservations {
+		font-size: 100px;
+	}
+
+	.room-detailss .subnav {
+	    display: none;
+	}
+
+
+	/* SINGLE - BLOG */
+
+	.post-on {
+		margin: 0 0.5%;
+		width: 31.83%;
+	}
+
+	.postextra h4 {
+		padding: 0 15px;
+	}
+
+	.partnersmeta blockquote {
+		font-size: 30px;
+	}
+
+	.partnersmeta blockquote:before,
+	.partnersmeta blockquote:after {
+		font-size: 54px;
+		line-height: 30px;
+	}
+
+
+	/* PAGE - NEIGHBORHOOD LIST */
+
+    #neighborhoodlist ul li {
+        height: 350px;
+    }
+
+    .neighborhoodmap #map,
+    .nmapcon {
+    	height: 600px;
+    }
+
+
+
+    /* SINGLE - ROOMS */
+
+    .subnav {
+        display: none;
+    }
+
+    .subnavmobile {
+        display: block;
+    }
+
+
+    /* PAGE - Amenities */
+
+    #maincontent .the-partners ul {
+        padding: 0;
+        width: 90%;
+    }
+
+
+    /* PAGE - CONNECT */
+
+	.connectinstagram {
+		float: none;
+		margin: 0 auto;
+		width: 480px;
+	}
+
+	.instagramicon {
+		margin-bottom: 10px;
+	}
+
+	.instagramlink {
+		margin-bottom: 10px;
+	}
+
+	.instagrampics ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	.connectsocial {
+		float: none;
+		width: auto;
+	}
+
+	.connectsocial .socialmedia {
+		padding: 30px 0 0;
+	}
+
+	.connectsocial ul {
+		margin: 20px auto 0;
+		width: auto;
+		padding: 0;
+	}
+
+	.connecttestimonials {
+		float: none;
+		margin: 0 auto;
+		width: 80%;
+	}
+
+	.connecttestimonials .flexslider .slides .triplogo {
+		margin:0 auto 50px;
+	}
+
+	.connecttestimonials .testimonials {
+		margin-bottom: 0;
+	}
+
+	.connecttestimonials .tripslider {
+		margin-bottom: 100px;
+		padding: 50px 0 0;
+	}
+
+	.flexslider .slides > li {
+	    max-height: 230px;
+	}
+
+
+}
+
+
+
+/* ================================================ 1023 - 0000 ======================================= */
+
+@media only screen
+and (max-width: 1023px) {
+
+    /* Merch popout */
+
+    .merch-sec .container {
+        padding: 0 90px 0 30px;
+    }
+    #dining .container {
+        margin-bottom: 20px;
+    }
+
+	/* hamburger menu */
+
+	.navcontainer:before {
+		left: 24%;
+	}
+	.navcontainer:after {
+		width: 24%;
+	}
+
+	ul.tabs {
+		width: 24%;
+	}
+
+	.tabs-container {
+		width: 76%;
+	}
+
+
+	/* homepage : award */
+
+	#award .container {
+		max-width: 560px;
+	}
+
+	#award .votenowbutton {
+		padding: 20px 0 0;
+	}
+
+
+	/* homepage : frieze art */
+
+	.frieze .fr-50 {
+		float: none;
+		width: auto;
+	}
+
+	.fr-50.left {
+		margin-bottom: 60px;
+	}
+
+	.fr-50.left div {
+		width: 340px;
+		max-width: 60%;
+	}
+
+
+	/* newsletter */
+
+	#signup .signuptext, #signup .signupform {
+		float: none;
+		margin: 0 auto;
+	}
+
+	#signup .signuptext { width: 400px;}
+	#signup .signupform { width: auto;}
+<<<<<<< HEAD
+	
+	#signup .signupform .da_block {
+		float: none;
+		margin: 0 auto;
+		width: 400px;
+	}
+	
+=======
+
+>>>>>>> master
+	#signup .signupform input {
+		display: block;
+		width: 100%;
+		margin: 0 auto 10px;
+	}
+
+	#signup .signupform input[type="submit"] {
+		max-width: 400px;
+		margin: 0 auto;
+	}
+
+
+	/* PAGE - ACCOMMODATIONS */
+
+	#roomslist ul li {
+		height: 400px;
+	}
+
+
+	/* PAGE - DINING */
+
+	#dining .diningslider {
+		height: 400px;
+		margin: 0 0 70px;
+	}
+
+
+	/* PAGE - OFFER LIST */
+
+	.halfoffer.steerleft,
+	.halfoffer.steerright	{
+		text-align: left;
+	}
+
+	.halfoffer.steerleft .hoffer-one, .halfoffer.steerright .hoffer-two,
+	.halfoffer.steerright .hoffer-one, .halfoffer.steerleft .hoffer-two {
+		float: none;
+	}
+
+	.halfoffer .hoffer-one,
+	.halfoffer .hoffer-two {
+		width: auto;
+	}
+
+	.halfoffer.steerleft .hoffer-one,
+	.halfoffer.steerright .hoffer-one {
+		height: 350px;
+	}
+
+
+	/* PAGE - PARTNERS */
+
+	#partnerslist ul li {
+		height: 350px;
+	}
+
+
+	/* PAGE - EVENTS */
+
+    .clearevent2 {
+    	display: block;
+    }
+
+    .stackers li,
+    .stackers li:nth-child(4n) {
+    	width: calc(50% - 40px);
+    }
+
+
+	/* PAGE - BLOG */
+
+    .clearblog2 {
+    	display: block;
+    }
+
+
+    /* PAGE - NEIGHBORHOOD LIST */
+
+    .infocontainer {
+    	max-width: 350px;
+    }
+
+    .vote .container{
+    	   max-width: 100% !important;
+    }
+
+    .vote_tolo_content p{
+    	  padding-bottom: 0px;
+    	  font-size: 90% !important;
+    	  margin: auto !important;
+    }
+
+    .continuebutton{
+
+    	margin-left: 20% !important;
+    }
+
+	.frieze .fr-50.left {
+		width: 100%;
+		float: none;
+		margin-bottom: 20px;
+	}
+		.frieze .fr-50.right {
+		width: 100%;
+		float: none;
+		padding-top: 0;
+	}
+	.frieze .fr-50.left .conde {
+		margin: 0 auto;
+		float: none;
+	}
+	.fr-50.right.maxcont div.desc {
+		float: none;
+	}
+
+}
+
+
+
+/* ================================================ 960 - 000 ======================================= */
+
+@media only screen
+and (max-width: 960px) {
+
+	/* featured logo */
+
+	#featured .logo {
+		bottom: 60px;
+		width: 300px;
+	}
+
+	#featured .logo img {
+		max-width: 100%;
+	}
+
+
+	/* homepage : hotel */
+
+	#hotel .flexslider {
+		margin: 0 0 20px;
+	}
+
+	#hotel .hotelcontent .col3.htitle {
+		padding: 0;
+		text-align: center;
+		width: 100%;
+	}
+
+	#hotel .hotelcontent .col3 {
+		width: 50%;
+	}
+
+
+	/* homepage : offerspartners */
+
+	#offerspartners .col2 {
+		height: 400px;
+	}
+
+
+	/* homepage : rooms */
+
+	#rooms .flexslider {
+		margin: 0 0 20px;
+	}
+
+	#rooms .roomscontent .col3.htitle {
+		padding: 0;
+		text-align: center;
+		width: 100%;
+	}
+
+	#rooms .roomscontent .col3 {
+		width: 50%;
+	}
+
+
+
+	/* SINGLE - Blog */
+
+	.relatedposts .postimag {
+		height: 200px;
+	}
+
+
+	/* FOOTER */
+
+	#footernav ul {
+	    text-align: center;
+	}
+
+}
+
+
+
+/* ================================================ 959 - 000 ======================================= */
+
+@media only screen
+and (max-width: 959px) {
+
+	/* datepicker */
+
+	.ressys .ui-datepicker td {
+		padding: 4px !important;
+	}
+
+	.ui-state-default,
+	.ui-widget-content .ui-state-default,
+	.ui-widget-header .ui-state-default {
+		padding: 10px 5.5px;
+	}
+
+
+	/* datepicker on rooms */
+
+	.ahiddenform {
+	    padding: 10px 10px 0;
+	}
+
+    .ahiddenform .calsec {
+	    margin: 0 1% 10px !important;
+	    width: 48%;
+    }
+
+    .ahiddenform .calsec i {
+        right: 3%;
+        top: 10px;
+    }
+
+    .ahiddenform .dropsec {
+        padding: 0 11px;
+	    margin: 0 1% 10px !important;
+	    width: 48%;
+    }
+
+    .ahiddenform .button1 {
+        width: 98%;
+        margin: 0 auto;
+        top: 0;
+    }
+
+    .roomdate:hover .ahiddenform {
+      height: 160px;
+    }
+
+
+	/* share */
+
+    .share {
+    	position: static;
+    }
+
+    .share .socialmedia {
+    	margin: 0 0 20px;
+    }
+
+    .share .socialmedia ul li {
+    	display: inline-block;
+    }
+
+
+	/* hamburger menu */
+
+	.navcontainer:before {
+		left: 30%;
+	}
+	.navcontainer:after {
+		width: 30%;
+	}
+
+	ul.tabs {
+		width: 30%;
+	}
+
+	ul.tabs li a {
+		padding: 8px 15px 0;
+	}
+
+	.tabs-container {
+		width: 70%;
+	}
+
+
+	/* PAGE - ACCOMMODATIONS */
+
+	#roomsintro .roomcontent .col3 {
+		float: none;
+		width: auto;
+	}
+
+	#roomslist ul li {
+		height: 350px;
+	}
+
+	#roomslist ul li h3.roomtitle {
+		text-align: right;
+		right: 40px;
+		width: 80%;
+	}
+
+
+	/* SINGLE - ACCOMMODATIONS */
+
+	#roomrelated ul li {
+		height: 350px;
+	}
+
+
+	/* PAGE - DINING */
+
+	#dining .dining-lists {
+		padding: 0 0 30px 30px;
+	}
+
+
+	/* PAGE - HOTEL */
+
+	.hotelarticle {
+		width: 45%;
+	}
+
+	.hotelaside {
+		width: 50%;
+	}
+
+
+
+	/* Footer */
+
+	#footer:after {
+	    display: none;
+	}
+
+    #footer .footerlogo {
+        display: inline-block;
+        width: 83%;
+        margin-bottom: -5%;
+        margin-top: -40px;
+    }
+
+    #footer div.col2:first-child {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    #footer div.col2:nth-child(2) {
+      width: auto;
+      margin: 0 auto;
+    }
+
+    #footer .fromtheblog .blogitem,
+    #footer .fromtheblog .blogitem:nth-child(2) {
+    	width: 49%;
+    }
+    #footer .fromtheblog .blogitem { float: left;}
+    #footer .fromtheblog .blogitem:nth-child(2) { float: right;}
+
+
+    /* PAGE - CONTACTS */
+
+    .contactt .article,
+    .contactt aside {
+    	width: 500px !important;
+    	float: none;
+    	margin: 0 auto;
+    }
+
+
+	/* SINGLE - ACCOMMODATIONS */
+
+	.roomdate, .roominfo {
+		width: 100%;
+	}
+
+	.directrate {
+		float: none;
+		width: auto;
+	}
+
+
+    /* PAGE - NEIGHBORHOOD LIST */
+
+    .infocontainer {
+    	max-width: 300px;
+    }
+
+
+	/* PAGE - MERCHANDISING */
+
+    .merch-copy {
+        width: 260px;
+    }
+
+    .merch-sec .directrate {
+        float: left;
+    }
+
+}
+
+
+
+/* ================================================ 860 - 0000 ======================================= */
+
+@media only screen
+and (max-width: 860px) {
+
+	/* hamburger menu */
+
+	.clear3 { display: none;}
+	.clear2, .clear4 { display: block;}
+
+    .clear33 { display: none;}
+	.clear22, .clear44 { display: block;}
+
+	.boxcontainer {
+		width: calc(50% - 20px);
+	}
+
+
+
+	/* Footer */
+
+	#footer div.col2:nth-child(2) {
+	    width: 100%;
+    }
+
+
+    /* PICNIC */
+
+   .picnic-image {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+	}
+
+	.picnic-details {
+	width: 90%;
+    float: none;
+    margin: 0 auto;
+	}
+
+	h3.picnic {
+    text-align: center;
+	}
+
+	h2.picnic {
+    text-align: center;
+    margin: 20px !important;
+	}
+
+	#maincontent p, #maincontent ul li {
+    padding: 10px;
+	}
+
+	#maincontent h1 p {
+    line-height: 50px;
+    margin: 0;
+	}
+
+	/* Footer Social Media  */
+	#footer .socialmedia ul
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	#footer .socialmedia
+	{
+		float: none;
+	}
+
+
+}
+
+
+
+
+/* ================================================ 799 - 000 ======================================= */
+
+@media only screen
+and (max-width: 799px) {
+
+	/* homepage : area */
+
+	#area .areacontent .col3.htitle {
+		width: 24%;
+	}
+
+
+
+	/* PAGE - Blog */
+
+	.stackers li {
+		margin: 20px 2% 60px;
+		width: calc(35.333% - 40px);
+	}
+
+
+	/* PAGE - Amenities */
+
+	.the-partners ul li {
+        margin: 0 10px 45px;
+    }
+
+    .bookrate .left {
+        width: 100%;
+    }
+
+
+	.awc-three {
+		margin-top: 40px;
+	}
+
+
+}
+
+/* ================================================ 860 - 000 ======================================= */
+
+@media only screen and (max-width: 860px) {
+
+    .mini-nav {
+        display: none;
+    }
+
+
+
+}
+
+/* ================================================ 860 - 000 ======================================= */
+
+@media only screen and (min-width: 768px) {
+
+    ul.mobile.tabs {
+        display:none;
+    }
+
+   #signup .signupform .da_block {
+    width: 100% !important;
+    margin: 0 auto;
+}
+
+}
+/* ================================================ 768 - 000 ======================================= */
+
+@media only screen and (max-width: 768px) {
+
+	/* General */
+
+	#featuredcontent {
+		min-height: 400px;
+		left: 25px;
+		width: calc(100% - 50px);
+	}
+
+	#featuredcontent .contenttitle {
+	    font-size: 75px;
+	    top: 26%;
+	}
+
+
+
+	/* SINGLE - Blog */
+
+	.relatedposts .postimag {
+		height: 120px;
+	}
+	
+	#featuredcontent .contenttitle_ppc {
+		top: 25%;
+	}
+	
+	#maincontent p, #maincontent ul li {
+		word-wrap: break-word;
+	}
+
+
+}
+
+
+
+/* ================================================ 767 - 000 ======================================= */
+
+@media only screen and (max-width: 767px) {
+
+	.highgate {
+	    text-align: center;
+	    width: 90%;
+	    padding: 10px 0;
+	}
+
+    #maincontent h1 {
+        font-size: 40px;
+    }
+
+    .culinary-guide-main h3 {
+        width: 100%;
+    }
+
+    .culinary-guide-main p {
+        width: 100%;
+    }
+
+    #maincontent ul {
+        padding-left: 0px;
+    }
+
+    .cg-image {
+        width: 50%;
+        margin: auto;
+        float: inherit;
+    }
+
+    .cg-details {
+        width: 90%;
+        padding: 0 5%;
+        float:right;
+    }
+
+    #maincontent p, #maincontent ul li {
+        padding-right: 30px;
+    }
+
+    .hvr-sweep-to-left.cg-post-noimage .culinary-post .cg-image {
+        display: none;
+    }
+
+    .cg-post-image {
+        margin: -30px 0;
+    }
+
+    .cg-post-image .culinary-post .cg-image img {
+        padding: 0 50px;
+    }
+
+    .culinary-sub-list ul li {
+        width: 50%;
+    }
+
+    .cg-post-image .culinary-post .cg-image img {
+        height: 100px;
+        padding: 15% 40%;
+        margin-top: -25%;
+    }
+
+    /* merch */
+
+    .merch-sec.slideup {
+        top: auto;
+        bottom: 0;
+    }
+
+    .merch-sec {
+        bottom: auto;
+        padding-bottom: 0;
+        top: -100%;
+        z-index: 999999;
+        height: auto;
+        display: none;
+    }
+
+    .merch-sec .littleimage {
+        height: 80px;
+        top: 10%;
+        width: 80px;
+    }
+
+    .merch-copy {
+        padding-left: 110px;
+        width: 75%;
+        margin-bottom: -40px;
+    }
+
+    .merch-copy h1 {
+        font-size: 20px;
+    }
+
+    .merch-copy h1 span {
+        font-size: 14px;
+        margin-top: 6px;
+    }
+
+    .merch-sec .closethiswindow {
+        bottom: auto;
+        top: -20px;
+    }
+
+    .merch-sec .reserve1 a.button1{
+        width:60%;
+    }
+
+    .merch-sec .reserve1{
+        text-align:center;
+        padding: 0;
+    }
+
+    .bookrate {
+        border: 0 solid #e6e6e6;
+        clear: both;
+        overflow: hidden;
+        padding-left: 110px;
+        position: relative;
+        width: 75%;
+    }
+
+    .directrate {
+        padding: 10px 20px;
+    }
+
+
+	/* datepicker */
+
+    .desky {
+        display: none;
+    }
+
+	.moby {
+		display: block;
+	}
+
+	.ui-widget {
+		width: 100%;
+	}
+
+	.ressys .ui-datepicker .ui-datepicker-next {
+		right: 0;
+	}
+
+
+	/* hamburger menu */
+
+    .hiddenlogo {
+    	left: 5%;
+    	overflow: hidden;
+    	width: 32px;
+    }
+
+    #header .reserve {
+    	right: 5%;
+    }
+
+	.closerlink {
+		background-color: transparent;
+		margin: 0;
+		left: auto;
+		right: 6%;
+		font-weight:0;
+		color:#000;
+	}
+
+	.opennav .closerlink {
+		top: 1%;
+		z-index: 99999999;
+		transition: all 0.4s ease 0s;
+		-webkit-transition: all 0.4s ease 0s;
+		-moz-transition: all 0.4s ease 0s;
+		-o-transition: all 0.4s ease 0s;
+		-ms-transition: all 0.4s ease 0s;
+	}
+
+	.opennav .closerlink:hover {
+		background-color: #ccc;
+	}
+
+	.navcontainer:after {
+		display: none;
+	}
+
+	.navcontainer:before {
+		left: -1px;
+		z-index: 1002;
+	}
+
+	.tabs-container {
+		width: 100%;
+	}
+
+	.massivebutton a {
+		margin: 0;
+	}
+
+	.tabpusher {
+		display: none;
+		left: 240px;
+	}
+
+	ul.tabs {
+		background-color: #fff;
+		height: 100%;
+		position: absolute;
+		width: 100%;
+		z-index: 999999999;
+	}
+
+	ul.tabs li {
+		padding: 0;
+		border: none;}
+
+
+	ul.tabs li a {
+		padding: 0;
+		line-height:35px;
+	}
+
+	ul.tabs li,
+	ul.tabs li.active,
+	ul.tabs li.active a:hover {
+		width: 100%;
+	}
+
+	.navcontainer.activate:before {
+		left: 0;
+	}
+
+	.tabpusher.activate {
+		background-color: #fff;
+		border-color: #ddd;
+		left: 0;
+	}
+
+	.tabpusher.activate span {
+		color: #aaa;
+	}
+
+	ul.tabs.activate {
+		width: 0;
+	}
+
+	ul.desktop.tabs {
+	    display:none;
+    }
+
+    /* mobile menu styling */
+
+    .navcontainer {
+        height: 100%;
+        top: 0;
+        width: 100%;
+        left: 0;
+    }
+
+    a.diss {
+        background: #000;
+        width: 40%;
+        margin: auto;
+        color: #fff!important;
+    }
+
+    ul.mobile.tabs li img {
+        padding: 10px 10px 20px 30px;
+        float: left;
+        height: 70px;
+    }
+
+    ul.mobile.tabs li.socialmedia ul li a {
+        width: 33%;
+        display: inline;
+        margin: 0 5px;
+        font-size: 20px;
+    }
+
+     ul.mobile.tabs li.socialmedia {
+        margin-top: 5%;
+    }
+
+    ul.mobile.tabs li.copyright p {
+        width: 55%;
+        margin: auto;
+    }
+
+   ul.mobile.tabs li.copyright p a {
+        line-height: 20px;
+    }
+
+    li.socialmedia ul {
+        padding-bottom: 10px!important;
+    }
+
+	/* content widget */
+
+	#contentwidget .logo {
+		float: none;
+		text-align: center;
+		margin: 0 0 25px;
+	}
+
+	#contentwidget .reservationform {
+		float: none;
+	}
+
+	#contentwidget .calspacer {
+		float: none;
+		text-align: center;
+	}
+
+	#contentwidget .reservationform span.calsec {
+		float: none;
+		margin: 5px 0;
+		text-align: center;
+	}
+
+	#contentwidget .calspacer input[type="submit"] {
+		display: block;
+		margin: 0 auto 20px;
+		width: 302px;
+	}
+
+
+	/* flexslider */
+
+	.flex-direction-nav a {
+		padding: 20px 10px;
+	}
+
+	.flexslider.tripslider .flex-direction-nav .flex-prev,
+	.flexslider.tripslider:hover .flex-direction-nav .flex-prev {
+		left: -3%;
+	}
+
+	.flexslider.tripslider .flex-direction-nav .flex-next,
+	.flexslider.tripslider:hover .flex-direction-nav .flex-next {
+		right: -3%;
+	}
+
+
+	/* featured logo */
+
+	#featured .reservationform {
+		display: none;
+	}
+
+
+	/* homepage : award */
+
+	#award .container {
+		max-width: 500px;
+		width: auto;
+	}
+
+	#award p {
+		padding: 18px 20px;
+	}
+
+	#award .votenowbutton {
+		padding: 10px 0 0;
+	}
+
+
+	/* homepage : offerspartners */
+
+	#offerspartners .col2 {
+		height: 275px;
+	}
+
+
+	/* homepage : area */
+
+	#area .areacontent .col3 {
+		width: 50%;
+	}
+
+	#area .areacontent .col3 p { padding: 0 20px 0 40px;}
+	#area .areacontent .col3:nth-child(2) p { padding: 0 40px 0 20px;}
+
+	#area .areacontent .col3.htitle {
+		text-align: center;
+		width: 100%;
+	}
+
+
+	/* footer */
+
+	#footer::after {
+        display: none;
+    }
+
+    #footer .socialmedia {
+    	margin: 0;
+    }
+
+    #footer .footerlogo {
+    	width: 90%;
+    	float: none;
+    	margin: 0 auto 40px;
+    }
+
+	#footer .col2 {
+		float: none;
+		width: 100%;
+	}
+
+	#footer .fromtheblog .blogitem,
+	#footer .fromtheblog .blogitem:nth-child(2) {
+		width: 47%;
+	}
+
+	#footer .fromtheblog .blogitem { float: left;}
+	#footer .fromtheblog .blogitem:nth-child(2) { float: right;}
+
+	#footer .fromtheblog .moreblog {
+		margin: 0 0 20px;
+	}
+
+
+	/* PAGE - ACCOMMODATIONS */
+
+	#roomslist ul li {
+		float: none;
+		height: 350px;
+		width: 100%;
+	}
+
+	#roomslist ul li:nth-child(3n-1) {
+		float: none;
+	}
+
+	#roomslist ul li:hover a {
+		margin-top: 0;
+	}
+
+
+
+	/* SINGLE - ACCOMMODATIONS */
+
+	.othersrate {
+		width: auto;
+	}
+
+    .subnavmobile {
+        margin: 0 0 30px;
+    }
+
+
+	/* PAGE - AMENITIES PARTNERS */
+
+	.the-amenities .container li {
+		height: 240px;
+	}
+
+
+	/* PAGE - BLOG */
+
+	body.blog #maincontent .container {
+		width: 96%;
+	}
+
+	body.blog.blog-single #maincontent .container {
+		width: 84%;
+	}
+
+	.stackers li, .stackers li:nth-child(4n) {
+		width: 46%;
+	}
+
+
+	/* SINGLE - BLOG */
+
+	.partnersmeta .col2 {
+		float: none;
+		width: auto;
+	}
+
+	.relatedposts .postimag {
+		width: 100%;
+	}
+
+	.relatedposts .postimag {
+	    height: 300px;
+	}
+
+
+	/* PAGE - DINING */
+
+	#dining .diningslider {
+		height: 350px;
+	}
+
+
+	/* SINGLE - EVENTS */
+
+	.partnersmeta .mapup {
+		height: 450px;
+	}
+
+
+	/* PAGE - HOTEL */
+
+	.hotelarticle {
+		float: none;
+		width: auto;
+		margin: 0 auto 30px;
+	}
+
+	.hotelaside {
+		float: none;
+		max-width: 450px;
+		margin: 0 auto;
+		width: auto;
+	}
+
+	.brg .subheading {
+		margin: 0 0 30px;
+	}
+
+	.brg p {
+		max-width: 450px;
+		width: auto;
+	}
+
+
+	/* PAGE - OFFER LIST */
+
+	#offerbox {
+		padding: 0 20px;
+	}
+
+	.fulloffer {
+		margin: 0 0 20px;
+	}
+
+	.halfoffer {
+		margin: 0 0 20px;
+	}
+
+	.halfoffer.steerleft .hoffer-one,
+	.halfoffer.steerright .hoffer-one {
+		height: 300px;
+	}
+
+
+	/* PAGE - AMENITIES PARTNERS */
+
+    .amenities ul {
+        padding-left: 20px !important;
+    }
+
+
+	/* PAGE - PARTNERS */
+
+	#partnerslist ul li {
+		height: 280px;
+	}
+
+	#partnerslist ul li,
+	#partnerslist ul li:nth-child(3n-1),
+	#partnerslist ul li:nth-child(3n) {
+		float: none;
+		width: auto;
+		margin-bottom: 25px;
+	}
+
+
+	/* PAGE - NEIGHBORHOOD LIST */
+
+    #neighborhoodlist ul li,
+    #neighborhoodlist ul li:nth-child(3n-1) {
+        float: none;
+        height: 280px;
+        margin-bottom: 25px;
+        width: 100%;
+    }
+
+    .neighborhoodmap #map,
+    .nmapcon {
+    	height: 500px;
+    }
+
+    .infocontainer {
+    	max-width: 250px;
+    }
+
+    .infocontainer h2 {
+    	font-size: 12px;
+    }
+
+}
+
+
+
+/* ================================================ 699 - 000 ======================================= */
+
+@media only screen and (max-width: 699px) {
+
+	.awc-three {
+		margin-top: 20px;
+	}
+
+
+}
+
+
+
+
+
+
+
+/* ================================================ 640 - 000 ======================================= */
+
+@media only screen and (max-width: 640px) {
+
+	/* General */
+
+	#contentwidget .logo {
+	    float: none;
+	    margin: 0 auto;
+	    width: 90%;
+	}
+
+	#contentwidget .logo img {
+		display: block;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+
+	#contentwidget .reservationform {
+		float: none;
+		margin: 10px auto 0;
+		padding: 15px 0;
+		text-align: center;
+		width: 90%;
+	}
+
+	#maincontent h1 {
+	    font-size: 35px;
+	    margin-bottom: 20px;
+	}
+
+	.culinary-guide-main h1, .culinary-guide-list h1 {
+        font-size: 28px;
+    }
+
+    .culinary-guide-main h3, .culinary-guide-main p {
+        width: 100%;
+    }
+
+    #maincontent ul {
+    padding-left: 0px;
+    }
+
+    .culinary-sub-list ul li {
+        width: 50%;
+    }
+
+    .cg-image {
+        width: 100%;
+        float: left;
+    }
+
+    .cg-details {
+        width: 80%;
+        margin: auto;
+        float: inherit;
+    }
+
+    .cg-post-image .culinary-post .cg-image img {
+        padding: 0 40%;
+        margin-top: -5%;
+    }
+
+	.dropcap {
+		font-size: 100px;
+	}
+
+	.partnersmeta blockquote::before, .partnersmeta blockquote::after {
+		font-size: 52px;
+	}
+
+	.partnersmeta blockquote {
+		font-size: 20px;
+	}
+
+	#maincontent {
+		margin-bottom: 30px;
+	}
+
+	.postextra {
+	    padding: 0;
+	    text-align: center;
+	}
+
+
+	/* SINGLE - ACCOMMODATIONS */
+
+	#roommoredetail .hamburger {
+		float: none;
+		left: 0;
+		margin: 0 auto 20px;
+		padding: 3px;
+		position: relative;
+		right: 0;
+		width: 5%;
+	}
+
+    #roommoredetail .roomamenities, #roommoredetail .roomreservations {
+        float: none;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+	#roomrelated ul li {
+	    height: 300px;
+	    width: 100%;
+	}
+
+
+	/* SINGLE - Rooms */
+
+	.alldown, .shutdown {
+	    top: 0;
+	}
+
+	.reservationform.interiorform, .interiorform .arrv, .interiorform .dept {
+        position: initial;
+    }
+
+	.interiorform .datepicker, .interiorform .datepickerr {
+        left: 50%;
+        right: auto;
+        position: fixed;
+        bottom: auto;
+        top: 50%;
+        margin-left: -147px;
+        margin-top: -200px;
+    }
+
+
+    /* FOOTER */
+
+    #footernav ul {
+        padding: 8px;
+    }
+
+    #footer div.col2:nth-child(2) {
+        padding-bottom: 0;
+        padding-top: 10px;
+    }
+
+    #footer .slh, #footer .copyright p {
+        text-align: center;
+    }
+
+    /* blog images */
+
+    .blogsingle img {
+    height: auto;
+    width: 100%;
+    }
+    .vote_tolo{
+    	float:none !important;
+    	width:100% !important;
+    }
+    .vote_tolo_content{
+    	width: 100% !important;
+        float: none !important;
+        font-size: 130% !important;
+    }
+    .continuebutton {
+    margin-left: 35% !important;
+    }
+
+    /* MAP */
+
+    .infocontainer {
+        display: none !important;
+    }
+
+
+	.frieze .col2 {
+		width: 100%;
+	}
+
+	.awc-three {
+		padding: 0;
+		margin-top: 30px;
+	}
+	.awc-four {
+		padding: 0;
+	}
+
+}
+
+
+
+/* ================================================ 599 - 000 ======================================= */
+
+@media only screen
+and (max-width: 599px) {
+
+	/* datepicker */
+
+	.ressys {
+		top: 50px !important;
+	}
+
+	.merch-sec {/**display: none;**/
+
+	}
+
+
+	/* featured */
+
+	#featured .reserve {
+		right: 10%;
+	}
+
+	.leftwall, .rightwall {
+		width: 5%;
+	}
+
+
+	/* featured logo */
+
+	#featured .logo {
+		bottom: 20px;
+		left: 10%;
+		width: 80%;
+	}
+
+
+	/* featuredcontent */
+
+	#featuredcontent {
+		left: 0;
+		margin: 90px 10px 20px;
+		width: auto;
+	}
+
+	#featuredcontent .reserve {
+		top: 10px;
+		right: 10px;
+	}
+
+
+	/* flexslider */
+
+	.flex-direction-nav a {
+		margin: -39px 0 0;
+		height: 38px;
+		width: 18px;
+	}
+
+	.flex-direction-nav a:before {
+		background-size: 100% auto !important;
+		height: 38px;
+		width: 18px;
+	}
+
+
+	/* homepage : hotel */
+
+	#hotel .flexslider .slides > li {
+		height: 320px;
+	}
+
+	#hotel .hotelcontent .col3 {
+		width: 100%;
+	}
+
+
+	/* homepage : rooms */
+
+	#rooms .flexslider .slides > li {
+		height: 320px;
+	}
+
+	#rooms .roomscontent .col3 {
+		width: 100%;
+	}
+
+
+	/* homepage : area */
+
+	#area .container {
+		padding: 20px 0 80px;
+	}
+
+	#area .areacontent .col3 {
+		width: 100%;
+	}
+
+	#area .areacontent .col3 p,
+	#area .areacontent .col3:nth-child(2) p {
+		padding: 0 30px 10px;
+	}
+
+	#area .continuebutton {
+		bottom: 20px;
+	}
+
+
+	/* footer */
+
+	#footer {
+		padding: 0 40px;
+	}
+
+	#footer .fromtheblog .blogitem,
+	#footer .fromtheblog .blogitem:nth-child(2) {
+		float: none;
+		width: 300px;
+	}
+
+
+	/* SINGLE - ACCOMMODATIONS */
+
+	#roomdetails h1 {
+		font-size: 50px;
+	}
+
+    .subnavmobile li {
+    	float: none;
+    	width: 100%;
+    }
+
+    .subnavmobile li:nth-child(2n-1) a {
+        border-right: 0 none;
+    }
+
+
+	/* PAGE - AMENITIES PARTNERS */
+
+	#maincontent .partners > p {
+		width: auto;
+	}
+
+	.the-amenities .container li {
+		float: none;
+		height: 200px;
+		width: 100%;
+		margin: 0 0 10px;
+	}
+
+	.the-partners {
+		width: auto;
+	}
+
+	#maincontent .the-partners ul {
+        padding-left: 0;
+        width: auto;
+    }
+
+
+	/* PAGE - DINING */
+
+	#dining .diningslider {
+		height: 280px;
+	}
+
+	#dining .dining-lists {
+		padding: 0 0 30px 20px;
+	}
+
+	.flexslider .slides > li {
+        background-size: cover;
+        height: 280px;
+        overflow: hidden;
+    }
+
+    .inlinegallery {
+        padding: 30px 20px;
+        overflow: hidden;
+    }
+
+    .galinfo .share {
+        display: none;
+    }
+
+    .galinfo {
+        float: left;
+        width: 94%;
+    }
+
+    #cboxClose {
+        background-size: contain ;
+        right: 3%;
+        top: 1px;
+        width: 15px;
+    }
+
+    #cboxCurrent {
+        bottom: 13px;
+    }
+
+    #cboxPrevious {
+        bottom: 10px;
+        right: 22%;
+    }
+
+    #cboxNext {
+        bottom: 10px;
+        right: 13%;
+    }
+
+    .galcontent {
+        float: right;
+        margin: 20px 0 0;
+        width: 100%;
+    }
+
+	/* SINGLE - EVENTS */
+
+	.partnersmeta .mapup {
+		height: 280px;
+	}
+
+	#maincontent ul.stackers {
+        padding-left: 0;
+    }
+
+
+	/* PAGE - OFFER LIST */
+
+	.offerbook {
+		text-align: center;
+	}
+
+	.offerbook a {
+		display: block;
+	}
+
+	.offerbook a.first {
+		margin: 0 0 20px;
+	}
+
+	.offermedia {
+		text-align: center;
+	}
+
+	.halfoffer .offerlist {
+		padding: 0 0 0 15px;
+	}
+
+
+	/* PAGE - PARTNERS */
+
+    #partnerslist {
+        width: 90%;
+        left: auto;
+        margin: 0 auto;
+    }
+
+    #partnerslist ul li {
+        height: 240px;
+        margin-bottom: 15px;
+    }
+
+
+	/* PAGE - NEIGHBORHOOD LIST */
+
+    #neighborhoodlist {
+        width: 90%;
+        left: auto;
+        margin: 0 auto;
+    }
+
+    #neighborhoodlist ul li {
+        height: 240px;
+        margin-bottom: 15px;
+    }
+
+    .neighborhoodmap #map,
+    .nmapcon {
+    	height: 400px!important;
+    }
+
+    .infocontainer {
+        max-width: 200px;
+    }
+
+    .infocontainer h2 {
+        display: none;
+    }
+
+    .infocontainer img {
+        display: block;
+    }
+
+
+	/* PAGE - CONTACTS */
+
+    .contactt .article,
+    .contactt aside {
+    	width: 400px !important;
+    }
+
+
+	/* PAGE - EVENTS */
+
+    .stackers li,
+    .stackers li:nth-child(4n) {
+    	float: none;
+    	width: auto;
+    	margin: 0 auto 20px;
+    }
+
+    .stackers li {
+        width: 100% !important;
+    }
+
+
+    /* PAGE - Connect */
+
+    #instafeed img {
+        width: 46%;
+    }
+
+
+
+    /* PAGE - Press */
+
+    .pressform {
+        max-width: 100%;
+    }
+
+    .pressform input {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .slipbutton {
+        box-sizing: border-box;
+        text-align: center;
+        width: 100%;
+    }
+
+
+
+    /* SINGLE - Gallery */
+
+    #gallerylist {
+        width: calc(100% - 70px);
+        left: 35px;
+    }
+
+    #gallerylist ul li {
+        height: 130px;
+        width: 100%;
+        margin-bottom: 21px;
+    }
+
+ .vote_tolo{
+    	float:none !important;
+    	width:100% !important;
+    }
+    .vote_tolo_content{
+    	width: 100% !important;
+        float: none !important;
+        font-size: 130% !important;
+    }
+    .continuebutton{
+        margin-left: 25% !important;
+    }
+
+}
+
+
+
+/* ================================================ 567 - 000 ======================================= */
+
+@media only screen
+and (max-width: 567px) {
+
+	/* hamburger menu */
+
+	.tabpusher {
+		top: 68px;
+	}
+
+	.boxcontainer {
+		float: none;
+		margin: 0 auto;
+		max-width: 400px;
+		width: 100%;
+	}
+
+
+	/* homepage : award */
+
+	#award .awardpic {
+		float: none;
+		text-align: center;
+		width: auto;
+	}
+
+	#award p {
+		padding: 28px 20px;
+	}
+
+
+	/* homepage : offerspartners */
+
+	#offerspartners {
+		padding: 40px 0 20px;
+	}
+
+	#offerspartners .col2 {
+		height: 200px;
+		margin: 0 0 20px;
+		width: 100%;
+	}
+
+
+	/* footer */
+
+	#footer .socialmedia {
+	    float: none;
+	}
+
+    #footer .socialmedia ul {
+        margin: 0 auto;
+    }
+
+    #footer .cslhcon {
+        float: none;
+        width: auto;
+    }
+
+    #footer .copyright {
+        float: none;
+        left: auto;
+     }
+
+    #footer .copyright p {
+        float: none;
+        width: 100%;
+    }
+
+    #footer .slh {
+        float: none;
+        text-align: center;
+    }
+
+
+	/* SINGLE - BLOG */
+
+	.postextra input {
+		margin: 0 0 10px;
+	}
+
+	.postextra input[type="submit"] {
+		display: block;
+		margin: 0 auto;
+		width: 284px;
+	}
+
+
+	/* PAGE - CONTACT */
+
+	.connectinstagram {
+		width: auto;
+	}
+
+	.connectsocial {
+		margin: 0 auto;
+		max-width: 280px;
+	}
+
+	.connectsocial ul li {
+		margin-bottom: 5px;
+	}
+
+	.connectsocial .socialmedia span {
+		display: block;
+		padding: 10px 0 0;
+	}
+
+	.connecttestimonials {
+		width: 90%;
+	}
+
+
+    /* PAGE - NEIGHBORHOOD LIST */
+
+    #featuredcontent.neighborhoodd .contenttitle {
+      font-size: 60px;
+    }
+ .vote_tolo{
+    	float:none !important;
+    	width:100% !important;
+    }
+    .vote_tolo_content{
+    	width: 100% !important;
+        float: none !important;
+        font-size: 130% !important;
+    }
+    .continuebutton{
+        margin-left: 25% !important;
+    }
+
+}
+
+
+
+/* ================================================ 499 - 000 ======================================= */
+
+@media only screen and (max-width: 499px) {
+	
+	#signup .signupform .da_block {
+    width: 100% !important;
+    margin: 0 auto;
+}
+}
+
+
+
+/* ================================================ 480 - 000 ======================================= */
+
+@media only screen and (max-width: 480px) {
+
+    /* Merch */
+
+    .merch-sec {
+        top: -100%;
+    }
+
+    .merch-sec .container {
+        width: 90%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    #dining .container {
+        margin-bottom: 20px;
+    }
+
+    .merch-sec .littleimage {
+        margin: 10px auto 0;
+        position: relative;
+        top: 10%;
+    }
+
+    .merch-copy {
+        float: none;
+        margin: 0 auto;
+        padding-left: 0;
+        text-align: center;
+        width: 80%;
+    }
+
+    .bookrate {
+        margin: 10px auto 0;
+        padding-left: 0;
+        width: 90%;
+    }
+
+	/* General */
+
+	#maincontent h1 {
+		 font-size: 18pt;
+		 margin-bottom: 20px;
+	}
+
+	.culinary-guide-main h1, .culinary-guide-list h1 {
+        font-size: 20px;
+    }
+
+    .culinary-guide-main h3 {
+        width: 100%;
+    }
+
+    .culinary-guide-main p {
+        width: 100%;
+    }
+
+    .culinary-sub-list ul li {
+        width: 100%;
+    }
+
+    .culinary-sub-list ul {
+        padding-left: 0px;
+    }
+
+    .cg-image {
+        width: 100%;
+        float: left;
+    }
+
+    .cg-details {
+        width: 70%;
+        margin: auto;
+        float: inherit;
+    }
+
+    .cg-post-image .culinary-post .cg-image img {
+        padding: 15% 30%;
+        margin-top: -20%;
+    }
+
+	/* PAGE - BLOG */
+
+	body.blog #maincontent .container {
+		width: 90%;
+	}
+
+	.stackers li,
+	.stackers li:nth-child(4n) {
+		display: block;
+		float: none;
+		width: auto;
+		margin: 0 0 50px;
+	}
+
+
+
+	/* SINGLE - BLOG */
+
+	.postextra input {
+		margin-bottom: 10px;
+	}
+
+
+	/* SINGLE - EVENTS */
+
+	.event-single .partnersmeta {
+		left: auto;
+		width: 85%;
+		margin: 0 auto 40px;
+	}
+ .vote_tolo{
+    	float:none !important;
+    	width:100% !important;
+    }
+    .vote_tolo_content{
+    	width: 100% !important;
+        float: none !important;
+        font-size: 130% !important;
+    }
+    .continuebutton{
+        margin-left: 25% !important;
+    }
+
+    p.two.cnt-text {
+    line-height: 21px !important;
+    margin-bottom: 0px;
+    padding-bottom: 6px;
+	}
+}
+
+
+
+/* ================================================ 479 - 000 ======================================= */
+
+@media only screen
+and (max-width: 479px) {
+
+	/* hamburger menu */
+
+    .hiddenlogo {
+    	top: 8px;
+    }
+
+    #header .reserve {
+    	top: 21px;
+    }
+
+    #header .nav {
+    	left: 5%;
+    	display: inline-block;
+    	margin: 0 0 0 55px;
+    }
+
+
+	/* datepicker */
+
+    .ressys .calendars {
+        padding: 15px 5px;
+    }
+
+	.ui-state-default,
+	.ui-widget-content .ui-state-default,
+	.ui-widget-header .ui-state-default {
+		padding: 5px 5.5px !important;
+	}
+
+
+	/* homepage : award */
+
+	#award {
+		padding: 40px 20px 70px;
+	}
+
+	#award .votenowbutton {
+		float: none;
+		text-align: center;
+	}
+
+
+	/* homepage : frieze art */
+
+	.fr-50.left {
+		margin-bottom: 30px;
+	}
+
+	.fr-desk { display: none;}
+	.fr-mob { display: inline;}
+
+
+	/* flexslider */
+
+	.flex-direction-nav a {
+		margin: -34px 0 0;
+		padding: 15px 5px;
+	}
+
+
+	/* newsletter */
+
+	#signup .signuptext,
+	#signup .signupform input,
+	#signup .signupform input[type="submit"] {
+		width: 90%;
+	}
+	#signup .signupform .da_block {
+		width: 100%;
+	}
+	#signup .signupform input { box-sizing: border-box;}
+
+
+	/* content widget */
+
+	#contentwidget {
+		padding: 0 10px 20px;
+	}
+
+
+	/* PAGE - ACCOMMODATIONS */
+
+	#roomslist {
+		left: 0;
+		margin: 0 10px;
+		width: auto;
+	}
+
+	#roomslist ul li {
+		height: 280px;
+		margin-bottom: 10px;
+	}
+
+
+	/* SINGLE - ACCOMMODATIONS */
+
+	#roomrelated ul li {
+		height: 280px;
+	}
+
+    .subnavmobile {
+    	padding: 0 20px;
+    }
+
+
+	/* PAGE - NEIGHBORHOOD LIST */
+
+    #featuredcontent.neighborhoodd .contenttitle {
+      font-size: 37px;
+    }
+
+
+    /* PAGE - CONTACTS */
+
+    .contactt .article,
+    .contactt aside {
+    	width: 280px !important;
+    }
+ .vote_tolo{
+    	float:none !important;
+    	width:100% !important;
+    }
+    .vote_tolo_content{
+    	width: 100% !important;
+        float: none !important;
+        font-size: 130% !important;
+    }
+    .continuebutton{
+        margin-left: 30% !important;
+    }
+     p.two.cnt-text {
+    line-height: 21px !important;
+    margin-bottom: 0px;
+    padding-bottom: 6px;
+	}
+
+}
+
+
+
+/* ================================================ 440 - 000 ======================================= */
+
+@media only screen and (max-width: 440px) {
+
+}
+
+/* ================================================ 425 - 000 ======================================= */
+
+@media only screen and (max-width: 425px) {
+	
+	#featuredcontent .contenttitle_ppc {
+		width: 100%;
+		max-width: 290px;
+		font-size: 15px;
+	}
+	#featuredcontent .contenttitle_ppc #save25 {
+		font-size: 50px;
+	}
+	
+}
+
+
+
+/* ================================================ 399 - 000 ======================================= */
+
+@media only screen and (max-width: 399px) {
+
+	/* datepicker on rooms */
+
+    .ahiddenform .calsec {
+	    margin: 0 0 10px !important;
+	    width: 100%;
+    }
+
+    .ahiddenform .dropsec {
+	    margin: 0 0 10px !important;
+	    width: 100%;
+    }
+
+    .ahiddenform .button1 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .roomdate:hover .ahiddenform {
+      height: 260px;
+    }
+
+
+	/* footer */
+
+	#footer {
+		padding: 0 5%;
+	}
+
+	#footer .fromtheblog .blogitem,
+	#footer .fromtheblog .blogitem:nth-child(2) {
+		width: auto;
+	}
+
+
+ .vote_tolo{
+    	float:none !important;
+    	width:100% !important;
+    }
+    .vote_tolo_content{
+    	width: 100% !important;
+        float: none !important;
+        font-size: 130% !important;
+    }
+    .continuebutton{
+        margin-left: 25% !important;
+    }
+     p.two.cnt-text {
+    line-height: 21px !important;
+    margin-bottom: 0px;
+    padding-bottom: 6px;
+	}
+
+	.resident {
+		height: 230px;
+	}
+	.restext {
+		right: 20px;
+		bottom: 20px;
+	}
+
+	#footer div.col2:first-child {
+		width: 65%;
+	}
+
+}
+
+
+
+/* ================================================ 319 - 000 ======================================= */
+
+@media only screen and (max-width: 399px) {
+
+    /* datepicker */
+
+    .ui-state-default,
+    .ui-widget-content .ui-state-default,
+    .ui-widget-header .ui-state-default {
+      padding: 5px 0 !important;
+    }
+
+
+	/* content widget */
+
+	#contentwidget .reservationform span.calsec {
+	    width: 100%;
+	}
+
+	#contentwidget .calspacer input[type="submit"] {
+		width: 100%;
+	}
+
+
+  .vote_tolo{
+    	float:none !important;
+    	width:100% !important;
+    }
+    .vote_tolo_content{
+    	width: 100% !important;
+        float: none !important;
+        font-size: 130% !important;
+    }
+    .continuebutton{
+        margin-left: 25% !important;
+    }
+
+     p.two.cnt-text {
+    line-height: 21px !important;
+    margin-bottom: 0px;
+    padding-bottom: 6px;
+	}
+
+}
+
+/* ================================================ HEIGHT 640 - 000 ======================================= */
+
+@media only screen
+and (max-height: 640px) {
+
+	/* datepicker */
+
+	.ressys .ui-datepicker td {
+		padding: 4px;
+	}
+
+
+ .vote_tolo{
+    	float:none !important;
+    	width:100% !important;
+    }
+    .vote_tolo_content{
+    	width: 100% !important;
+        float: none !important;
+        font-size: 130% !important;
+    }
+    .continuebutton{
+        margin-left: 25% !important;
+    }
+
+
+}
+
+
+
+/* ================================================ HEIGHT 590 - 000 ======================================= */
+
+@media only screen
+and (max-height: 590px) {
+
+	/* datepicker */
+
+	.ressys {
+		top: 10px;
+	}
+ .vote_tolo{
+    	float:none !important;
+    	width:100% !important;
+    }
+    .vote_tolo_content{
+    	width: 100% !important;
+        float: none !important;
+        font-size: 130% !important;
+    }
+    .continuebutton{
+        margin-left: 35% !important;
+        width: 50%;
+    }
+
+
+}
+
+
+
+/* ================================================ HEIGHT 500 - 000 ======================================= */
+
+@media only screen
+and (max-height: 500px) {
+
+	/* toppernav */
+
+	.opennav .toppernav {
+		top: 3%;
+	}
+
+
+	/* datepicker */
+
+	.ui-state-default,
+	.ui-widget-content .ui-state-default,
+	.ui-widget-header .ui-state-default {
+		padding: 5px 5.5px;
+	}
+ .vote_tolo{
+    	float:none !important;
+    	width:100% !important;
+    }
+    .vote_tolo_content{
+    	width: 100% !important;
+        float: none !important;
+        font-size: 130% !important;
+    }
+    .continuebutton{
+        margin-left: 25% !important;
+    }
+
+}
+
+
+/* ================================================ HEIGHT 360 - 000 ======================================= */
+
+@media only screen
+and (max-height: 360px) {
+
+	/* toppernav */
+
+	.opennav .toppernav {
+		top: 2%;
+	}
+
+ .vote_tolo{
+    	float:none !important;
+    	width:100% !important;
+    }
+    .vote_tolo_content{
+    	width: 100% !important;
+        float: none !important;
+        font-size: 130% !important;
+    }
+    .continuebutton{
+        margin-left: 25% !important;
+    }
+
+    p.two.cnt-text {
+    line-height: 21px !important;
+    margin-bottom: 0px;
+    padding-bottom: 6px;
+	}
+
+
+
+
+}
+/********************* 960 to 1175 screens *****************/
+
+
+@media only screen and (min-width : 960px )
+and (max-device-width : 1175px) {
+
+	.roominfo .reservenowbutton .button2
+	{
+    cursor: pointer;
+    width: 100%;
+    padding: 1px 5px !important;
+    font-size: 11px !important;
+	}
+
+}

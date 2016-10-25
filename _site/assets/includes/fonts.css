@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'GothamBook';
+  src: url(/assets/images/172/original/GothamBook.eot?#iefix) format('embedded-opentype'),
+    url(/assets/images/192/original/GothamBook.woff) format('woff'),
+    url(/assets/images/182/original/GothamBook.ttf)  format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamBold';
+  src: url('/assets/images/142/original/gotham-bold.eot?#iefix') format('embedded-opentype'),
+    url('/assets/images/162/original/gotham-bold.woff') format('woff'),
+    url('/assets/images/152/original/gotham-bold.ttf')  format('truetype');
+    /* url('fonts/gotham-bold.svg#GothamBold') format('svg'); */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamLight';
+  src: url('/assets/images/202/original/gotham-light.eot?#iefix') format('embedded-opentype'),
+    url('/assets/images/222/original/gotham-light.woff') format('woff'),
+    url('/assets/images/212/original/gotham-light.ttf')  format('truetype');
+    /* url('fonts/gotham-light.svg#GothamLight') format('svg'); */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamThin';
+  src: url('/assets/images/262/original/gotham-thin.eot?#iefix') format('embedded-opentype'),
+    url('/assets/images/282/original/gotham-thin.woff') format('woff'),
+    url('/assets/images/272/original/gotham-thin.ttf')  format('truetype');
+    /* url('fonts/gotham-thin.svg#GothamThin') format('svg'); */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamMedium';
+  src: url('/assets/images/232/original/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/assets/images/252/original/Gotham-Medium.woff') format('woff'),
+    url('/assets/images/242/original/Gotham-Medium.ttf')  format('truetype');
+    /* url('fonts/Gotham-Medium.svg#GothamMedium') format('svg'); */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamBlack';
+  src: url('/assets/images/112/original/GothamBlack.eot?#iefix') format('embedded-opentype'),
+    url('/assets/images/132/original/GothamBlack.woff') format('woff'),
+    url('/assets/images/122/original/GothamBlack.ttf')  format('truetype');
+    /* url('fonts/GothamBlack.svg#GothamBlack') format('svg'); */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans-Extrabold';
+  src: url('/assets/images/362/original/OpenSans-Extrabold.eot?#iefix') format('embedded-opentype'),
+    url('/assets/images/382/original/OpenSans-Extrabold.woff') format('woff'),
+    url('/assets/images/372/original/OpenSans-ExtraBold.ttf')  format('truetype');
+    /* url('fonts/OpenSans-Extrabold.svg#OpenSans-Extrabold') format('svg'); */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'BiloxiScript';
+  src: url('/assets/images/452/original/BiloxiScript.eot?#iefix') format('embedded-opentype'),
+  url('/assets/images/472/original/BiloxiScript.woff') format('woff'),
+  url('/assets/images/462/original/BiloxiScript.ttf') format('truetype');
+  /* url('fonts/BiloxiScript.svg#BiloxiScript') format('svg'); */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirMedium';
+    src: url('/assets/images/392/original/avenir.eot');
+    src: url('/assets/images/392/original/avenir.eot') format('embedded-opentype'),
+         url('/assets/images/412/original/avenir.woff') format('woff'),
+         url('/assets/images/402/original/avenir.ttf') format('truetype');
+         /* url('fonts/avenir.svg#AvenirBook') format('svg'); */
+}
+
+@font-face {
+    font-family: 'AvenirBlack';
+    src: url('/assets/images/422/original/avenir95black.eot');
+    src: url('/assets/images/422/original/avenir95black.eot') format('embedded-opentype'),
+         url('/assets/images/442/original/avenir95black.woff') format('woff'),
+         url('/assets/images/432/original/avenir95black.ttf') format('truetype');
+         /* url('fonts/avenir95black.svg#Avenir95BlackBlack') format('svg'); */
+}

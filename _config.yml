@@ -45,3 +45,6 @@ page_gen:
   - data: 'Culinary-Guide'
     template: 'neighborhood-culinary-single'
     dir: 'culinary-single'
+  - data: 'PPC-Landing-Page'
+    template: 'ppc-landing-single'
+    dir: ''

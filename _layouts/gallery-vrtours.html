@@ -37,44 +37,46 @@
 		</div>
 
 		<div id="gallerylist">
-			<ul>
+			<ul id="gallvr">  
+				{% for LatestVRTours in site.data._models.VRTour %}
+				   <li id="{{LatestVRTours.menu_order }}">
+				   <link vr-embed  popup="true" rel="import" href="https://static.vrglobal.com/embed/{{LatestVRTours.vr_url_key }}.html"/>	 
+ 					</li>
+				{% endfor %}
+
+			 	</ul>
+
+
+<style type="text/css">
+.vrglobal-embed {
+ 
+    vertical-align: top;
+    display: block !important;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.vrg-popup{
+	z-index: 99999999999999999999 !important;
+}
+</style>
 			
-				<li style="background-image: url(/assets/images/9644/original/luxury-queen.jpg);">
-					<a target="_blank" href="http://viewer.vrglobal.com/oTR6FfqW"><h3>Luxury Queen</h3></a>
-				</li>
-				<li style="background-image: url(/assets/images/9641/original/king.jpg);">
-					<a target="_blank" href="http://viewer.vrglobal.com/d7jiAWyW"><h3>King</h3></a>
-				</li>
-				<li style="background-image: url(/assets/images/9645/original/one-bedroom-suite.jpg);">
-					<a target="_blank" href="http://viewer.vrglobal.com/bI4wwp6J"><h3>Luxury King</h3></a>
-				</li>
-				<li style="background-image: url(/assets/images/9648/original/two-queen.jpg);">
-					<a target="_blank" href="http://viewer.vrglobal.com/6jvNwfVD"><h3>Two Queen</h3></a>
-				</li>
-				<li style="background-image: url(/assets/images/9647/original/times-square-view-king.jpg);">
-					<a target="_blank" href="http://viewer.vrglobal.com/YCWYXsel"><h3>Times Square View King</h3></a>
-				</li>
-			    <li style="background-image: url(/assets/images/9643/original/luxury-king.jpg);">
-					<a target="_blank" href="http://viewer.vrglobal.com/SMDi7vqd"><h3>One Bedroom Suite</h3></a>
-				</li>
-				<li style="background-image: url(/assets/images/9642/original/concierge.jpg);">
-					<a target="_blank" href="http://viewer.vrglobal.com/6sGCQsCOe"><h3>Lobby / Concierge</h3></a>
-				</li>
-				<li style="background-image: url(/assets/images/9499/original/westhouse-hotel-new-york-the-den.jpg);">
-					<a target="_blank" href="http://viewer.vrglobal.com/7baFuUKp"><h3>Den / Bar</h3></a>
-				</li>	
-				<li style="background-image: url(/assets/images/9646/original/terrace-suite.jpg);">
-					<a target="_blank" href="http://viewer.vrglobal.com/X3EZAOZ9"><h3>Terrace</h3></a>
-				</li>
-				<li style="background-image: url(/assets/images/8822/original/westhouse-views-1.png);">
-					<a target="_blank" href="http://viewer.vrglobal.com/Zy59dRoE"><h3>The Terrace</h3></a>
-				</li>
-				<li style="background-image: url(/assets/images/9641/original/king.jpg);">
-					<a target="_blank" href="http://viewer.vrglobal.com/3r2GL3Qh"><h3>King ADA Accessible Bedroom</h3></a>
-				</li>
-			</ul>
-				
 			</div>
 
 		</div>
+
+ <script type="text/javascript">
+ function sortList() {
+    sortList.direction = sortList.direction ? false : true;
+    var arr = [], list = document.getElementById('gallvr'),
+        c = list.children, l = c.length, i;
+    for(i=0; i<l; i++) arr[i] = c[i]; // "convert" NodeList to array
+    arr.sort(function(a,b) {return a.id < b.id ? -1 : 1;}); //sorting function ends here.
+    if( !sortList.direction) arr = arr.reverse();
+    for(i=0; i<l; i++) list.appendChild(arr[i]);
+}
+
+sortList();
+    </script>
+
 {% include footer.html %}

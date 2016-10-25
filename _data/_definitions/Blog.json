@@ -11,9 +11,9 @@
 "category":
 	{"type":"model","model_name":"BlogCategory","multiple":true,"default_text":"Select Blog Post Categories","display_field":"name"},
 "date":
-	{"required":true,"hint":"Publishing date (MM/DD/YY)"},
+	{"required":true,"placeholder":"MM/DD/YY","instructions":"Publishing date (MM/DD/YY)"},
 "datemeta":
-	{"required":true,"hint":"Used to sort blogs by date (YYYY/MM/DD)"},
+	{"required":true,"placeholder":"YYYY/MM/DD","instructions":"Used to sort blogs by date (YYYY/MM/DD)"},
 "preview":
 	{"type":"richtext","required":true,"hint":"Write the preview of your article"},
 "image":
