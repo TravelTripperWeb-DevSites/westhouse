@@ -79,7 +79,12 @@
 				<div class="clear"></div>
 				
 				<div class="cslhcon">
-	                <div class="slh"><img style="width: 100px" src="/assets/images/9489/original/small-luxury-hotel.png" alt="Small Luxury Hotel" />&nbsp;&nbsp;<img style="width: 90px" src="/assets/images/9493/original/NYC_FINALIST.png" alt="" /></div>
+	                <div class="slh">&nbsp;&nbsp;<img style="width: 100px" src="/assets/images/9489/original/small-luxury-hotel.png" alt="Small Luxury Hotel" /><img style="width: 107px" src="/assets/images/9493/original/Conde-Nast-Award.png" alt="" /><img style="width: 107px" src="/assets/images/worldsbest.png" alt="" />
+	                    <div class="conde_holder"> 
+							 <div class="conde_desc"><p class="first_linec">Our Hotel has been selected to be in<br>Conde Nast Readers Choice Awards.</p><p class="second_linec"><a href="http://www.cntraveler.com/vote">Vote and see full list of hotels here ></a></p>
+							 </div>
+						</div>
+	                </div>
     				<div class="copyright">
     					<p>
     					&copy; 2015 WESTHOUSE HOTEL<br> <a href="https://www.google.com/maps/place/WestHouse+New+York/@40.7646719,-73.9814936,17z/data=!4m6!1m3!3m2!1s0x89c258f8245a4eab:0x86165540b81f3d02!2sWestHouse+New+York!3m1!1s0x89c258f8245a4eab:0x86165540b81f3d02" target="_blank">201 WEST 55TH STREET</a><br/>
@@ -103,7 +108,7 @@
 					<h3>from the westhouse your house blog</h3>
 					
         				{% assign LatestBlogsList = site.data._models.Blog | sort: 'datemeta' | reverse %}
-{% for LimitedLastestBlogs in LatestBlogsList | limit: 2 %}
+						{% for LimitedLastestBlogs in LatestBlogsList | limit: 2 %}
         				
         					<div class="blogitem" data-category-ids="{% for cat in LimitedLastestBlogs.category %} {{ cat.id }} {% endfor %}">
         						<a href="{{ LimitedLastestBlogs.id | permalink: model_dir: 'blog' }}">
@@ -147,6 +152,7 @@
 
                    
 					<!--<li><a href="{{ 'about' | permalink }}">Our House</a></li>-->
+					<li><a href="{{ 'terms-of-use' | permalink }}">Terms of Use</a></li> 
 					<li><a href="{{ 'privacy-policy' | permalink }}">Privacy Policy</a></li> 
 					<li><a href="{{ 'partners/affiliate-charities' | permalink }}">Affiliate Charities</a></li>
 					<li><a href="{{ 'sitemap' | permalink }}">Sitemap</a></li> 
@@ -155,6 +161,7 @@
 				<!--	<li><a href="{{ 'luxury-hotel-amenities-nyc' | permalink }}">Sitemap</a></li> -->
 					<li><a href="{{ 'contact-us' | permalink }}">Contact</a></li>
 					<li><a href="{{ 'social-media' | permalink }}">Connect</a></li>
+					<li class="highgate"><a href="http://www.highgate.com" target="_blank"><img style="height:50px;" src="/assets/images/highgate-logo-white.png" alt="Highgate" /></a></li>
 					
 				</ul>
 		</div>
@@ -207,15 +214,15 @@
 
 					<li><a class="connect" href="http://www.westhousehotelnewyork.com/"><img src="/assets/images/9495/original/logo3.png"></a></li>
 					<li><a class="diss connect" href="https://westhousehotelnewyork.reztrip.com/search?arrival_date=&departure_date=&_ga=1.207643158.566400102.1453370934">Book</a></li>
-					<li style="margin-top: 20px;"><a class="connect" href="/luxury-rooms-suites-nyc">Rooms & Suites</a></li>
-					<li><a class="connect" href="/westhouse-offers">Offers</a></li>
-					<li><a class="connect" href="/luxury-hotel-amenities-nyc">Amenities</a></li>
-					<li><a class="connect" href="/dining">Dining</a></li>
-					<li><a class="connect" href="/photo-album">Gallery</a></li>
-					<li><a class="connect" href="/things-to-do-in-nyc">Area</a></li>
-					<li><a class="connect" href="/partners">Partners</a></li>
-                    <li><a class="connect" href="/westhouse-blog">Blog</a></li>
-                    <li><a class="connect" href="/social-media">Connect With Us</a></li>
+					<li style="margin-top: 20px;"><a class="connect" href="{{ 'luxury-rooms-suites-nyc' | permalink }}">Rooms & Suites</a></li>
+					<li><a class="connect" href="{{ 'westhouse-offers' | permalink }}">Offers</a></li>
+					<li><a class="connect" href="{{ 'luxury-hotel-amenities-nyc' | permalink }}">Amenities</a></li>
+					<li><a class="connect" href="{{ 'dining' | permalink }}">Dining</a></li>
+					<li><a class="connect" href="{{ 'photo-album' | permalink }}">Gallery</a></li>
+					<li><a class="connect" href="{{ 'things-to-do-in-nyc' | permalink }}">Area</a></li>
+					<li><a class="connect" href="{{ 'partners' | permalink }}">Partners</a></li>
+                    <li><a class="connect" href="{{ 'westhouse-blog' | permalink }}">Blog</a></li>
+                    <li><a class="connect" href="{{ 'social-media' | permalink }}">Connect With Us</a></li>
                     <li class="socialmedia">
     					<ul>
     						{% for SocialLinks in site.data._models.SocialLinks %}{% if SocialLinks.name == "Facebook" %}<li><a class="connect" href="{{ SocialLinks.url }}" target="_blank"><i class="fa fa-facebook"></i></a> {% endif %}{% endfor %}
@@ -310,8 +317,8 @@
 						</div>
 
 						<div class="boxes">
-                
-                        {% for Offers in site.data._models.Offers %}    
+                        {% assign OffersSorted = site.data._models.Offers | sort: 'menu_order' %}
+                        {% for Offers in OffersSorted %}    
                         
 							<div class="boxcontainer">
 
@@ -368,21 +375,42 @@
 						</div>
 
 						<div class="boxes">
-                
-                        {% for Amenities in site.data._models.Amenities %}    
-                        
-							<div class="boxcontainer halfsiebox">
+                    
+                    	{% assign AmenitiesSorted = site.data._models.Amenities | sort: 'menu_order' %}
+                        {% for Amenities in AmenitiesSorted %}   
 
-								<a href="{{ Amenities.id | permalink: model_dir: 'westhouse-hotel-amenities-nyc' }}" class="dropanchor"></a>
+	                        	{% if Amenities.url_friendly_name == 'perfect-picnic' %}
 
-								<div class="lining">
+	                        		<div class="boxcontainer halfsiebox">
 
-									<div class="boxpic" style="background-image: url({{ Amenities.image.url }});"></div>
+										<a href="{{ Amenities.vr_btn_link }}" class="dropanchor"></a>
 
-								</div>
+										<div class="lining">
 
-								<h2>{{ Amenities.title }}</h2>
-							</div>
+											<div class="boxpic" style="background-image: url({{ Amenities.image.url }});"></div>
+
+										</div>
+
+										<h2>{{ Amenities.title }}</h2>
+										
+									</div>
+
+	                        	{% else %}
+	                        
+									<div class="boxcontainer halfsiebox">
+
+										<a href="{{ Amenities.id | permalink: model_dir: 'westhouse-hotel-amenities-nyc' }}" class="dropanchor"></a>
+
+										<div class="lining">
+
+											<div class="boxpic" style="background-image: url({{ Amenities.image.url }});"></div>
+
+										</div>
+
+										<h2>{{ Amenities.title }}</h2>
+									</div>
+
+								{% endif %}
                             
                             {% endfor %}
                             
@@ -425,8 +453,9 @@
 						</div>
 
 						<div class="boxes">
+                      {% assign DiningSorted = site.data._models.Dining | sort: 'menu_order' %}
                 
-                        {% for Dining in site.data._models.Dining %}    
+                        {% for Dining in DiningSorted %}    
                         
 							<div class="boxcontainer halfsiebox">
 
@@ -482,62 +511,25 @@
 						</div>
 
 						<div class="boxes">
+
+						{% assign GallerySorted = site.data._models.Gallery | sort: 'menu_order' %}
+                        {% for Gallery in GallerySorted %}  
 							
 							<div class="boxcontainer halfsiebox">
 
-								<a href="{{ 'photo-album/accommodations' | permalink }}" class="dropanchor"></a>
+								<a href="{{ Gallery.menulink }}" class="dropanchor"></a>
 
 								<div class="lining">
 
-									<div class="boxpic" style="background-image: url(/assets/images/4372/original/WestHouse_Room_2504_Livingroom_v3s.jpg);"></div>
+									<div class="boxpic" style="background-image: url({{ Gallery.image }});"></div>
 
 								</div>
 
-								<h2>Accommodations</h2>
+								<h2>{{ Gallery.title }}</h2>
 								
 							</div>
-							
-							<div class="boxcontainer halfsiebox">
 
-								<a href="{{ 'photo-album/dining-2' | permalink }}" class="dropanchor"></a>
-
-								<div class="lining">
-
-									<div class="boxpic" style="background-image: url(/assets/images/9508/original/westhouse-hotel-new-york-the-terrace-food2.jpg);"></div>
-
-								</div>
-
-								<h2>Dining</h2>
-								
-							</div>
-							
-							<div class="boxcontainer halfsiebox">
-
-								<a href="{{ 'photo-album/nyc-hotel-amenities' | permalink }}" class="dropanchor"></a>
-
-								<div class="lining">
-
-									<div class="boxpic" style="background-image: url(/assets/images/6162/original/westhouse-hotel-new-york-amenities-gallery.jpg);"></div>
-
-								</div>
-
-								<h2>Amenities</h2>
-								
-							</div>
-							
-							<div class="boxcontainer halfsiebox">
-
-								<a href="{{ 'photo-album/virtual-tours' | permalink }}" class="dropanchor"></a>
-
-								<div class="lining">
-
-									<div class="boxpic" style="background-image: url(/assets/images/9649/original/WestHouse_Room_2108_Livingroom_v3s.jpg);"></div>
-
-								</div>
-
-								<h2>Virtual Tours</h2>
-								
-							</div>
+						{% endfor %}
 							
 							<div class="clear"></div>
                             
@@ -583,100 +575,30 @@
 						</div>
 
 						<div class="boxes">
-                
-                         
-                        
-							<div class="boxcontainer halfsiebox">
 
-								<a href="{{ 'things-to-do-in-nyc/art-culture' | permalink }}" class="dropanchor"></a>
-
-								<div class="lining">
-
-									<div class="boxpic" style="background-image: url(/assets/images/9503/original/neighborhood1.jpg);"></div>
-
-								</div>
-
-								<h2>Arts & Culture</h2>
-								
-							</div>
+						{% assign AreaSorted = site.data._models.Area | sort: 'menu_order' %}
+                        {% for Area in AreaSorted %}  
 							
 							<div class="boxcontainer halfsiebox">
 
-								<a href="{{ 'things-to-do-in-nyc/shopping' | permalink }}" class="dropanchor"></a>
+								<a href="{{ Area.menulink }}" class="dropanchor"></a>
 
 								<div class="lining">
 
-									<div class="boxpic" style="background-image: url(/assets/images/9504/original/neighborhood9.jpg);"></div>
+									<div class="boxpic" style="background-image: url({{ Area.image }});"></div>
 
 								</div>
 
-								<h2>Shopping</h2>
+								<h2>{{ Area.title }}</h2>
 								
 							</div>
+
+						{% endfor %}
 							
-							
-							<div class="boxcontainer halfsiebox">
-
-								<a href="{{ 'things-to-do-in-nyc/entertainment' | permalink }}" class="dropanchor"></a>
-
-								<div class="lining">
-
-									<div class="boxpic" style="background-image: url(/assets/images/9505/original/neighborhood13.jpg);"></div>
-
-								</div>
-
-								<h2>Entertainment Guide</h2>
-								
-							</div>
-                            
-                            <div class="boxcontainer halfsiebox">
-
-								<a href="{{ 'things-to-do-in-nyc/must-see-nyc' | permalink }}" class="dropanchor"></a>
-
-								<div class="lining">
-
-									<div class="boxpic" style="background-image: url(/assets/images/9506/original/neighborhood17.jpg);"></div>
-
-								</div>
-
-								<h2>Must See NYC</h2>
-								
-							</div>
-							
-							<div class="boxcontainer halfsiebox">
-
-								<a href="{{ 'events-in-nyc' | permalink }}" class="dropanchor"></a>
-
-								<div class="lining">
-
-									<div class="boxpic" style="background-image: url(/assets/images/9507/original/westhouse-hotel-new-york-events.jpg);"></div>
-
-								</div>
-
-								<h2>Events</h2>
-								
-							</div>
-							
-							<div class="boxcontainer halfsiebox">
-
-								<a href="{{ 'things-to-do-in-nyc/culinary-guide' | permalink }}" class="dropanchor"></a>
-
-								<div class="lining">
-
-									<div class="boxpic" style="background-image: url(/assets/images/9633/original/westhouse-culinary-guide2.jpg);"></div>
-
-								</div>
-
-								<h2>Culinary Guide</h2>
-								
-							</div>
-							
-                            
-                            <div class="clear"></div>
+							<div class="clear"></div>
                             
 						</div>
-						
-						
+											
 
 					<!--	<div class="massivebutton">
 							<a href="{{ 'things-to-do-in-nyc' | permalink }}">View Neighborhood Guide</a>
@@ -715,8 +637,9 @@
 						</div>
 
 						<div class="boxes">
+                {% assign PartnersSorted = site.data._models.Partners | sort: 'menu_order' %}
                 
-                        {% for Partners in site.data._models.Partners %}    
+                        {% for Partners in PartnersSorted %}    
                         
 							<div class="boxcontainer halfsiebox">
 
@@ -776,7 +699,7 @@
                         
 					
                             {% assign navBlogsList = site.data._models.Blog | sort: 'datemeta' | reverse %}
-{% for navBlogs in navBlogsList | limit: 8 %}
+							{% for navBlogs in navBlogsList | limit: 8 %}
                         
 							<div class="boxcontainer" data-category-ids="{% for cat in navBlogs.category %} {{ cat.id }} {% endfor %}">
 
@@ -908,20 +831,16 @@
 
 							</form>
 							
-						<form class="moby test" autocomplete="off"  method="get" enctype="multipart/form-data" name="omni_reservation_form_" action="https://westhousehotelnewyork.reztripmobile.com/rt/m/results?">
+						<form class="moby test" autocomplete="off"  method="get" enctype="multipart/form-data" name="omni_reservation_form_" action="https://westhousehotelnewyork.reztrip.com/search?">
 
-								<input type="hidden"  id="arrival_daterr" name="arrival" class="calendarsection" />
+								<input type="hidden"  id="arrival_daterr" name="arrival_date" class="calendarsection" />
 								<input type="hidden"  id="arv">
 
 
-								<input type="hidden" id="departure_daterr" name="departure" class="calendarsection" />
+								<input type="hidden" id="departure_daterr" name="departure_date" class="calendarsection" />
 								<input type="hidden" id="dep">
 								
-								<input type="hidden" name="propertyId" value="354" />
-								<input type="hidden" name="locale" value="en-us" />
-								<input type="hidden" name="sub" value="westhousehotelnewyork" />
-								<input type="hidden" name="numAdults" value="1" />
-								<input type="hidden" name="numChildren" value="0" />
+								
 
 								<div class="calendars">
 									<div class="datepickerlyy"></div>
@@ -988,7 +907,7 @@
                 resolution: 'low_resolution',
                 userId: 467174069,
                 limit: 4,
-                accessToken: '467174069.475e40e.5b2dc84993424a20b69cd2aa47af498f',
+                accessToken: '467174069.1677ed0.1521647cfacc426aa15794fb2d7912a7',
             });
             userFeed.run();
             
@@ -1058,6 +977,7 @@ WestHouse Product Pixel
 </script>
 <!-- End Sojern Tag -->
 
+{% elsif template_class == "index" %}
 {% else %}
 
 <!--
@@ -1135,6 +1055,8 @@ WestHouse Tracking Pixel
     }());
 
 </script>
+
+<script src="https://static.vrglobal.com/embedv2.js"></script>
         
         <script>(function(){ var v = document.createElement('script'); var s = document.getElementsByTagName('script')[0]; v.src = '//io.voyat.com/v.js'; v.async = true; s.parentNode.insertBefore(v, s); })();</script>
 

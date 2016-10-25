@@ -15,4 +15,8 @@
 "image":
 	{"type":"image"},
 "contents":
-	{"type":"richtext","required":true,"hint":"Write the content of your offer."}}
+	{"type":"richtext","required":true,"hint":"Write the content of your offer."},
+"menu_order": {
+  "type": "integer"
+}
+}

@@ -50,6 +50,24 @@
 {% endif %}
 <script type="text/javascript">
      $(document).ready(function(){
+
+        if (window.history && window.history.pushState) {
+
+    $(window).on('popstate', function() {
+      var hashLocation = location.hash;
+      var hashSplit = hashLocation.split("#!/");
+      var hashName = hashSplit[1];
+
+      if (hashName !== '') {
+        var hash = window.location.hash;
+        if (hash === '') {
+          $( "body" ).addClass( "opennav" );
+        }
+      }
+    });
+
+   // window.history.pushState('forward', null, './');
+  }
 		$('#map-side-bar li').on('click', function(e){
 		e.preventDefault();
 			$('#map-side-bar').find('li').removeClass('active');
@@ -145,7 +163,7 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 </script>
 <!-- CRAZY EGG -->	
 
-<a class="stay-wanderful-button" href="https://staywanderful.com/widgets/#/30">Stay Wanderful</a> <script src="https://scripts.staywanderful.com/widgets/30.js"></script>
+<!--<a class="stay-wanderful-button" href="https://staywanderful.com/widgets/#/30">Stay Wanderful</a> <script src="https://scripts.staywanderful.com/widgets/30.js"></script> -->
 
 {% if template_class == "index" %}
 <!-- Sojern Tag v6_js, Pixel Version: 2 -->
@@ -188,9 +206,9 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 			<div class="reserve"><a class="button1" href="#">Reserve</a></div>
 			<div class="mini-nav">
 			    <ul>
-			        <li><a href="/luxury-rooms-suites-nyc">Room & Suites</li>
-			        <li><a href="/westhouse-offers">Offers</li>
-			        <li><a href="/photo-album">Gallery</li>
+			        <li><a href="{{ 'luxury-rooms-suites-nyc' | permalink }}">Room & Suites</li>
+			        <li><a href="{{ 'westhouse-offers' | permalink }}">Offers</li>
+			        <li><a href="{{ 'photo-album' | permalink }}">Gallery</li>
 			    </ul>
 			</div>
 			<div class="hiddenlogo"><a href="/"><img src="/assets/images/9495/original/logo3.png" alt="logo3" /></a></div>

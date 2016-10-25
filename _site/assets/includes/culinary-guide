@@ -1,0 +1,60 @@
+{% assign template_class = 'page-culinary' %}
+
+{% template title:header %}
+		
+
+    <div id="featuredcontent" style="background-image: url(/assets/images/6082/original/westhouse-hotel-new-york-dining.jpg);">
+
+            <h1 class="contenttitle">Culinary Guide</h1>
+
+            <div class="reserve"><a class="button1" href="#">Reserve</a></div>
+
+        </div>
+
+        <div id="contentwidget">
+            <div class="logo"><a href="/"><img src="/assets/images/712/original/logo3.png" alt="logo3" /></a></div>
+
+           <!-- include booking form -->
+
+            {% template title:booking_form_interior %}
+
+            <!-- // include booking form -->
+
+
+        </div>
+	
+		<div class="subnav">
+    		<ul>
+			    {% models model:Dining %}
+        	    	<li><a href="{% link id:1222, instance:Dining %}">{{ Dining.title }}</a></li>
+                {% endmodels %}
+    		</ul>
+    	</div>
+    	
+        <div class="subnavmobile">
+          <ul>
+            {% models model:Dining %}
+			<li><a href="{% link id:1222, instance:Dining %}"><span>{{ Dining.title }}</span></a></li>
+            {% endmodels %}
+            <div class="clear"></div>
+          </ul>
+          
+          <div class="subclose"><i class="fa fa-bars"></i><span>View Dining</span></div>
+        </div>
+
+	<div id="dining">
+		<div class="container">
+
+			<div class="dining-container">
+			
+			    {% region id:dining_content_area %}
+			    
+
+                </div>
+
+            </div>
+
+        </div>
+
+		
+{% template title:footer %}

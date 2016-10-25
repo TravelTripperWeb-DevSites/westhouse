@@ -23,4 +23,5 @@
 "vr_btn_link":
 	{},
 "contents":
-	{"type":"richtext","required":true,"hint":"Write the content of your dining spot"}}
+	{"type":"richtext","required":true,"hint":"Write the content of your dining spot"},
+  "menu_order":{"type":"integer"}}

@@ -15,4 +15,7 @@
 "vrtitle":
 	{},
 "contents":
-	{"type":"richtext","required":true,"hint":"Write the content of your amenity."}}
+	{"type":"richtext","required":true,"hint":"Write the content of your amenity."},
+"menu_order": {
+  "type": "integer"
+}}

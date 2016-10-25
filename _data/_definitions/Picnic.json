@@ -1,0 +1,13 @@
+{
+
+	"title": {"required":true},
+	"seo_title": {"required":true},
+	"seo_description": {"type":"text","required":true},
+	"featured_image": {"type":"image","required":true},
+	"price": {"type":"text"},
+	"price2": {"type":"text"},
+	"sub_heading": {"type":"text"},
+	"orderby": {"type":"integer","required":true,"placeholder":"01","instructions":"Used to sort entry"},	
+	"contents":	{"type":"richtext","required":true}
+
+}
