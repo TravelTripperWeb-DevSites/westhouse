@@ -31,8 +31,8 @@ class DataStorage
 
   def method_missing(name, *arguments, &block)
     if name.to_s =~ /find_(\w+)_by_(\w+)/ && !collection[$1].nil?
-      keys = Array.wrap(arguments.first)
-      keys.size == 1 ? find($1, $2, keys).first : find($1, $2, keys)
+      keys = arguments.first
+      keys.is_a?(Array) ? find($1, $2, keys) : find($1, $2, Array.wrap(keys)).first
     elsif !collection[name.to_s].nil?
       collection[name.to_s]
     else

@@ -19,6 +19,7 @@ module Jekyll
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), template + ".html")
       self.data.merge!(data)
+      self.data['data'] = data
       self.data['title'] ||= name
       permalink = self.data_permalink || File.join(dir, file_name)
       if permalink && !(permalink.end_with?('/') || permalink.end_with?('.html'))
